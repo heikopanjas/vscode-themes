@@ -1,7 +1,7 @@
 {
     "name": "super-themes",
     "displayName": "Super Theme Collection",
-    "description": "A sophisticated collection of VS Code themes featuring Black, White, and Blue variants for different coding environments",
+    "description": "A sophisticated collection of VS Code themes featuring Black, White, Light, and Blue variants for different coding environments",
     "version": "1.1.2",
     "icon": "super-themes.png",
     "engines": {
@@ -32,6 +32,11 @@
                 "label": "Super White",
                 "uiTheme": "vs",
                 "path": "./themes/super-white-color-theme.json"
+            },
+            {
+                "label": "Super Light",
+                "uiTheme": "vs",
+                "path": "./themes/super-light-color-theme.json"
             },
             {
                 "label": "Super Blue",

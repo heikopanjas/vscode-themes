@@ -12,14 +12,18 @@ A sophisticated dark theme inspired by the GitHub Dark Colorblind theme with dee
 ### Super White
 A clean light theme based on GitHub Light Colorblind with crisp whites and high contrast for bright environment coding.
 
+### Super Light
+A soft light theme with a gentle blue tint, offering a comfortable and easy-on-the-eyes experience for bright environment coding.
+
 ### Super Blue
 A calming blue-tinted dark theme with blue backgrounds and accents, perfect for a soothing coding experience in low-light environments.
 
 ## Features
 
-- **Multiple Variants**: Black, White, and Blue themes for different lighting conditions and preferences
+- **Multiple Variants**: Black, White, Light, and Blue themes for different lighting conditions and preferences
 - **Deep Black Background**: Ultra-dark editor background (#010409) for reduced eye strain in low-light environments
 - **Clean White Background**: Pure white editor background (#ffffff) for bright, high-contrast environments
+- **Soft Light Background**: Gentle blue-tinted editor background (#e8eefe) for comfortable bright environment coding
 - **Calming Blue Background**: Blue-tinted editor background (#0a0e1a) for a soothing coding experience
 - **High Contrast**: Carefully balanced contrast ratios for excellent readability across all variants
 - **Comprehensive Coverage**: Full theming of all VS Code UI elements including editor, sidebar, terminal, and panels
@@ -48,6 +52,15 @@ The light theme uses a clean color palette based on GitHub's light design system
 - **Text Primary**: `#1f2328` - High contrast black for main text
 - **Text Secondary**: `#656d76` - Muted for secondary text
 
+### Super Light
+The soft light theme uses a gentle color palette with blue tints for comfortable extended coding sessions:
+
+- **Primary Background**: `#e8eefe` - Soft blue tint for main editor
+- **Secondary Background**: `#f6f8fa` - Light gray for tabs and headers
+- **Accent Color**: `#0969da` - Blue accent for active elements
+- **Text Primary**: `#1f2328` - High contrast black for main text
+- **Text Secondary**: `#656d76` - Muted for secondary text
+
 ### Super Blue
 
 The blue theme uses a calming blue-tinted color palette for a soothing coding experience:
@@ -71,12 +84,12 @@ The blue theme uses a calming blue-tinted color palette for a soothing coding ex
 1. Clone this repository
 2. Copy the theme files to your VS Code extensions directory
 3. Open VS Code and go to Preferences > Color Theme
-4. Select "Super Black", "Super White", or "Super Blue" from the list
+4. Select "Super Black", "Super White", "Super Light", or "Super Blue" from the list
 
 ### Development Installation
 1. Open this project in VS Code
 2. Press `F5` to launch Extension Development Host
-3. In the new window, select "Super Black", "Super White", or "Super Blue" theme
+3. In the new window, select "Super Black", "Super White", "Super Light", or "Super Blue" theme
 
 ## Customization
 
@@ -90,6 +103,9 @@ You can customize specific colors by adding overrides to your VS Code settings:
     },
     "[Super White]": {
       "editor.background": "#f8f9fa"
+    },
+    "[Super Light]": {
+      "editor.background": "#f0f4ff"
     },
     "[Super Blue]": {
       "editor.background": "#0c1221"
@@ -108,6 +124,9 @@ You can customize specific colors by adding overrides to your VS Code settings:
 
 ### Super Blue Theme
 ![Super Blue Theme](docs/images/super-themes-blue.png)
+
+### Super Light Theme
+![Super Light Theme](docs/images/super-themes-light.png)
 
 ## License
 
