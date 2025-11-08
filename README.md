@@ -134,6 +134,12 @@ MIT License - see LICENSE file for details.
 
 ## Changelog
 
+### 1.2.0
+
+- Added new Super Light theme with gentle blue tint
+- Updated documentation to include all four theme variants
+- Enhanced theme collection with soft light alternative to Super White
+
 ### 1.1.2
 
 - Added extension icon (super-themes.png)
