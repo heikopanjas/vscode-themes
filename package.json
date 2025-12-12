@@ -1,62 +1,62 @@
 {
-    "name": "super-themes",
-    "displayName": "Super Theme Collection",
-    "description": "A sophisticated collection of VS Code themes featuring Black, White, Light, and Blue variants for different coding environments",
-    "version": "1.2.0",
-    "icon": "super-themes.png",
-    "engines": {
-        "vscode": "^1.74.0"
-    },
-    "categories": [
-        "Themes"
-    ],
-    "keywords": [
-        "theme",
-        "dark",
-        "light",
-        "black",
-        "white",
-        "blue",
-        "color-theme",
-        "calming",
-        "collection"
-    ],
-    "contributes": {
-        "themes": [
-            {
-                "label": "Super Black",
-                "uiTheme": "vs-dark",
-                "path": "./themes/super-black-color-theme.json"
-            },
-            {
-                "label": "Super White",
-                "uiTheme": "vs",
-                "path": "./themes/super-white-color-theme.json"
-            },
-            {
-                "label": "Super Light",
-                "uiTheme": "vs",
-                "path": "./themes/super-light-color-theme.json"
-            },
-            {
-                "label": "Super Blue",
-                "uiTheme": "vs-dark",
-                "path": "./themes/super-blue-color-theme.json"
-            }
-        ]
-    },
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/heikopanjas/vscode-themes"
-    },
-    "author": {
-        "name": "Heiko Panjas"
-    },
-    "license": "MIT",
-    "publisher": "heikopanjas",
-    "scripts": {
-        "build": "vsce package --out ./dist/",
-        "install-local": "code --install-extension ./dist/*.vsix",
-        "validate": "vsce package --out ./dist/ --no-dependencies"
-    }
+  "name": "super-themes",
+  "displayName": "Super Theme Collection",
+  "description": "A sophisticated collection of VS Code themes featuring Black, White, Light, and Blue variants for different coding environments",
+  "version": "1.2.1",
+  "icon": "super-themes.png",
+  "engines": {
+    "vscode": "^1.74.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "theme",
+    "dark",
+    "light",
+    "black",
+    "white",
+    "blue",
+    "color-theme",
+    "calming",
+    "collection"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Super Black",
+        "uiTheme": "vs-dark",
+        "path": "./themes/super-black-color-theme.json"
+      },
+      {
+        "label": "Super White",
+        "uiTheme": "vs",
+        "path": "./themes/super-white-color-theme.json"
+      },
+      {
+        "label": "Super Light",
+        "uiTheme": "vs",
+        "path": "./themes/super-light-color-theme.json"
+      },
+      {
+        "label": "Super Blue",
+        "uiTheme": "vs-dark",
+        "path": "./themes/super-blue-color-theme.json"
+      }
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/heikopanjas/vscode-themes"
+  },
+  "author": {
+    "name": "Heiko Panjas"
+  },
+  "license": "MIT",
+  "publisher": "heikopanjas",
+  "scripts": {
+    "build": "vsce package --out ./dist/",
+    "install-local": "code --install-extension ./dist/*.vsix",
+    "validate": "vsce package --out ./dist/ --no-dependencies"
+  }
 }
