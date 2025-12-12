@@ -118,7 +118,7 @@ vscode-theme/
 - **Categories**: Use "Themes" category for marketplace
 - **Keywords**: Include relevant theme-related keywords for discoverability
 - **Extension Name**: "super-themes" with display name "Super Theme Collection"
-- **Version**: Currently at 1.2.1, ready for marketplace publication
+- **Version**: Currently at 1.2.2, ready for marketplace publication
 
 ### Next Steps & Publishing
 1. **Testing**: Use F5 to test themes in Extension Development Host
@@ -214,6 +214,10 @@ When the user requests to "commit the latest changes" or similar:
 *Update these instructions as the project evolves and new requirements emerge.*
 
 ## Recent Updates & Decisions
+
+### December 12, 2025 - Version 1.2.2 Update
+- **Version Bump**: Updated version from 1.2.1 to 1.2.2
+- **Reasoning**: Preparing for next release iteration
 
 ### December 12, 2025 - Version 1.2.1 Update
 - **Version Bump**: Updated version from 1.2.0 to 1.2.1
