@@ -1,5 +1,5 @@
 {
-  "name": "Super Light",
+  "name": "NW21",
   "type": "light",
   "semanticHighlighting": true,
   "colors": {
@@ -406,7 +406,6 @@
         "variable.language"
       ],
       "settings": {
-        "fontStyle": "italic",
         "foreground": "#cf222e"
       }
     },
@@ -416,7 +415,6 @@
         "entity.name.method.js"
       ],
       "settings": {
-        "fontStyle": "italic",
         "foreground": "#8250df"
       }
     },
@@ -531,7 +529,6 @@
         "tag.decorator.js punctuation.definition.tag.js"
       ],
       "settings": {
-        "fontStyle": "italic",
         "foreground": "#8250df"
       }
     },
@@ -541,7 +538,6 @@
         "source.js constant.other.object.key.js string.unquoted.label.js"
       ],
       "settings": {
-        "fontStyle": "italic",
         "foreground": "#cf222e"
       }
     },

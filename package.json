@@ -1,8 +1,8 @@
 {
-  "name": "super-themes",
-  "displayName": "Super Theme Collection",
-  "description": "A sophisticated collection of VS Code themes featuring Black, White, Light, and Blue variants for different coding environments",
-  "version": "1.2.1",
+  "name": "berlin-postal-themes",
+  "displayName": "Berlin Postal Themes",
+  "description": "VS Code themes inspired by historic Berlin postal districts (Postzustellbezirke) - NW21 Moabit, W30 Schöneberg, and SW61 Kreuzberg",
+  "version": "2.0.0",
   "icon": "super-themes.png",
   "engines": {
     "vscode": "^1.74.0"
@@ -14,34 +14,31 @@
     "theme",
     "dark",
     "light",
-    "black",
-    "white",
-    "blue",
+    "berlin",
+    "postal",
+    "postzustellbezirke",
+    "moabit",
+    "schöneberg",
+    "kreuzberg",
     "color-theme",
-    "calming",
     "collection"
   ],
   "contributes": {
     "themes": [
       {
-        "label": "Super Black",
-        "uiTheme": "vs-dark",
-        "path": "./themes/super-black-color-theme.json"
-      },
-      {
-        "label": "Super White",
+        "label": "NW21 (Nordwest 21 - Moabit)",
         "uiTheme": "vs",
-        "path": "./themes/super-white-color-theme.json"
+        "path": "./themes/nw21-color-theme.json"
       },
       {
-        "label": "Super Light",
-        "uiTheme": "vs",
-        "path": "./themes/super-light-color-theme.json"
-      },
-      {
-        "label": "Super Blue",
+        "label": "W30 (West 30 - Schöneberg)",
         "uiTheme": "vs-dark",
-        "path": "./themes/super-blue-color-theme.json"
+        "path": "./themes/w30-color-theme.json"
+      },
+      {
+        "label": "SW61 (Südwest 61 - Kreuzberg)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/sw61-color-theme.json"
       }
     ]
   },
