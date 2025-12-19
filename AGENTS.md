@@ -1,40 +1,38 @@
 # VS Code Theme Development - Copilot Instructions
 
 ## Project Overview
-This is a VS Code theme development project for creating a family of custom Visual Studio Code color themes. The project focuses on developing cohesive, aesthetically pleasing themes that enhance the coding experience across different environments and preferences.
+This is a VS Code theme development project for **Berlin Postal Themes**, a collection of themes inspired by historic Berlin postal districts (Postzustellbezirke). Each theme represents a different West Berlin postal district from the 1960s-1993 era, bringing Berlin's urban history to the coding experience.
 
-### Theme Variants Planned
-- **Super Black** (Complete) - Ultra-dark theme with deep black backgrounds (#010409) for low-light coding
-- **Super White** (Complete) - Clean light theme with high contrast for bright environments
-- **Super Light** (Complete) - Soft light theme with gentle blue-tinted backgrounds (#e8eefe) for comfortable daylight coding
-- **Super Blue** (Complete) - Blue-tinted theme for a calming coding experience
+### Theme Variants
+- **NW21** (Nordwest 21 - Moabit) - Soft light theme with gentle blue-tinted backgrounds (#e8eefe) for comfortable extended coding
+- **W30** (West 30 - Schöneberg) - Ultra-dark theme with deep black backgrounds (#010409) for low-light coding
+- **SW61** (Südwest 61 - Kreuzberg) - Blue-tinted dark theme with blue backgrounds (#00205A) for a calming coding experience
 
 ### Current Status
-All four theme variants are implemented and functional. The extension is ready for testing, packaging, and potential marketplace publication.
+All three theme variants are implemented and functional. The extension has been rebranded from "Super Theme Collection" to "Berlin Postal Themes" and is ready for testing, packaging, and marketplace publication at version 2.0.0.
 
 ## Project Structure
 ```
-vscode-theme/
+berlin-postal-themes/
 ├── package.json                          # Extension manifest (Complete)
 ├── README.md                            # Project documentation (Complete)
 ├── LICENSE                              # MIT License
-├── .copilot-instructions.md             # AI assistant guidelines
+├── AGENTS.md                            # AI assistant guidelines (this file)
 ├── .gitignore                           # Git ignore file with VSIX exclusions
 ├── themes/                              # Theme definition files
-│   ├── super-black-color-theme.json  # Complete - Ultra-dark theme
-│   ├── super-white-color-theme.json  # Complete - Light theme
-│   ├── super-light-color-theme.json  # Complete - Soft light theme
-│   └── super-blue-color-theme.json   # Complete - Blue-tinted theme
+│   ├── nw21-color-theme.json         # Complete - NW21 Moabit light theme
+│   ├── w30-color-theme.json          # Complete - W30 Schöneberg dark theme
+│   └── sw61-color-theme.json         # Complete - SW61 Kreuzberg blue theme
 ├── .github/                             # GitHub configuration
 │   └── workflows/                       # GitHub Actions workflows
 │       └── build-vsix.yml               # Automated VSIX build workflow
 ├── dist/                                # Build output directory (gitignored)
-├── .vscode/                             # VS Code workspace settings (Optional)
-│   ├── launch.json                      # Debug configuration for testing
-│   └── settings.json                    # Workspace settings
-├── assets/                              # Additional assets (Optional)
-│   └── screenshots/                     # Theme preview images for marketplace
-├── icon.png                             # Extension icon (Optional)
+├── docs/                                # Documentation and assets
+│   └── images/                          # Theme preview images
+│       ├── super-themes-light.png       # NW21 screenshot
+│       ├── super.themes-black.png       # W30 screenshot
+│       └── super-themes-blue.png        # SW61 screenshot
+├── super-themes.png                     # Extension icon
 └── CHANGELOG.md                         # Version history (Optional)
 ```
 
@@ -56,44 +54,43 @@ vscode-theme/
 - **Error/Warning Colors**: Diagnostic highlighting and problem indicators
 
 ### File Naming Conventions
-- Theme files: `super-[variant]-color-theme.json`
-- Variants: `black`, `white`, `light`, `blue`
-- Use kebab-case for file names
+- Theme files: `[district-code]-color-theme.json`
+- District codes: `nw21`, `w30`, `sw61`
+- Use kebab-case and lowercase for file names
 - Maintain consistent naming across all theme variants
 
 ### Theme Variant Guidelines
-- **Black Variant**: Ultra-dark backgrounds (#010409), high contrast, minimal eye strain
-- **White Variant**: Clean light backgrounds, sharp contrast, bright environment optimized
-- **Light Variant**: Soft light backgrounds (#e8eefe), gentle blue tint, comfortable daylight coding
-- **Blue Variant**: Blue-tinted backgrounds, calming atmosphere, balanced contrast
+- **NW21 (Moabit)**: Soft light backgrounds (#e8eefe), gentle blue tint, comfortable extended coding
+- **W30 (Schöneberg)**: Ultra-dark backgrounds (#010409), high contrast, minimal eye strain for low-light
+- **SW61 (Kreuzberg)**: Blue-tinted backgrounds (#00205A), calming atmosphere, balanced contrast
+- **Berlin Heritage**: Each theme reflects the character of its historic postal district
 - **Consistency**: Maintain similar syntax highlighting patterns across variants
 - **Accessibility**: Ensure all variants meet WCAG contrast requirements
 
 ### Current Theme Specifications
-**Super Black Theme:**
+**NW21 (Nordwest 21 - Moabit):**
+- Editor background: #e8eefe (soft blue-tinted)
+- Foreground: #1f2328 (dark gray)
+- Cursor: #0969da (blue accent)
+- Type: vs (light theme)
+- Character: Industrial and creative Moabit
+- Gentle on eyes for extended coding sessions
+
+**W30 (West 30 - Schöneberg):**
 - Editor background: #010409 (ultra-dark black)
 - Foreground: #c9d1d9 (light gray)
 - Cursor: #58a6ff (blue accent)
-- Line highlight: #21262d
-- Selection: #264f78
 - Type: vs-dark
+- Character: Schöneberg's vibrant nightlife
+- Maximum contrast for low-light environments
 
-**Super White Theme:**
-- Editor background: #ffffff (pure white)
-- Type: vs (light theme)
-- High contrast design for bright environments
-
-**Super Light Theme:**
-- Editor background: #e8eefe (soft blue-tinted white)
-- Foreground: #1f2328 (dark gray)
-- Cursor: #0969da (blue accent)
-- Type: light
-- Gentle on eyes for daylight coding
-
-**Super Blue Theme:**
-- Blue-tinted color scheme
+**SW61 (Südwest 61 - Kreuzberg):**
+- Editor background: #00205A (deep blue)
+- Foreground: #c9d1d9 (light gray)
+- Cursor: #58a6ff (blue accent)
 - Type: vs-dark
-- Calming blue accents throughout interface
+- Character: Kreuzberg's alternative culture
+- Calming blue tones for focused coding
 
 ### Testing and Validation
 1. **Multi-language Testing**: Test with TypeScript, JavaScript, Python, JSON, Markdown, etc.
@@ -116,9 +113,9 @@ vscode-theme/
 - **Activation Events**: Themes activate on `*` (startup)
 - **Contribution Points**: Use `themes` contribution point in package.json
 - **Categories**: Use "Themes" category for marketplace
-- **Keywords**: Include relevant theme-related keywords for discoverability
-- **Extension Name**: "super-themes" with display name "Super Theme Collection"
-- **Version**: Currently at 1.2.2, ready for marketplace publication
+- **Keywords**: Include Berlin, postal, and district-related keywords for discoverability
+- **Extension Name**: "berlin-postal-themes" with display name "Berlin Postal Themes"
+- **Version**: Currently at 2.0.0 (major rebrand), ready for marketplace publication
 
 ### Next Steps & Publishing
 1. **Testing**: Use F5 to test themes in Extension Development Host
@@ -201,19 +198,36 @@ When the user requests to "commit the latest changes" or similar:
 7. Prepare for marketplace publication
 
 ### Theme Development Roadmap
-- [x] Super Black - Core dark theme
-- [x] Super White - Light variant
-- [x] Super Light - Soft light variant
-- [x] Super Blue - Blue-tinted variant
+- [x] NW21 (Moabit) - Soft light theme
+- [x] W30 (Schöneberg) - Ultra-dark theme
+- [x] SW61 (Kreuzberg) - Blue-tinted dark theme
+- [x] Major rebrand to Berlin Postal Themes
+- [x] Updated documentation with Berlin heritage context
 - [ ] Cross-variant consistency testing
 - [ ] Accessibility compliance verification
-- [ ] Marketplace assets and documentation
+- [ ] Update extension icon to reflect Berlin theme
+- [ ] Marketplace publication with new branding
 
 ---
-*Last updated: December 12, 2025*
+*Last updated: December 19, 2025*
 *Update these instructions as the project evolves and new requirements emerge.*
 
 ## Recent Updates & Decisions
+
+### December 19, 2025 - Version 2.0.0 Major Rebrand
+- **Major Rebrand**: Complete transformation from "Super Theme Collection" to "Berlin Postal Themes"
+- **Extension Rename**: Changed package name from "super-themes" to "berlin-postal-themes"
+- **Theme Renames**: 
+  - Super Light → NW21 (Nordwest 21 - Moabit)
+  - Super Black → W30 (West 30 - Schöneberg)
+  - Super Blue → SW61 (Südwest 61 - Kreuzberg)
+- **Theme Removed**: Discontinued Super White theme to focus on three distinct district themes
+- **File Renames**: All theme files renamed to match postal district codes (nw21, w30, sw61)
+- **Conceptual Shift**: Themes now inspired by historic West Berlin postal districts (Postzustellbezirke) from 1960s-1993
+- **Documentation Overhaul**: Complete rewrite of README and AGENTS.md with Berlin heritage context
+- **Historical Context**: Added information about Berlin Postzustellbezirke and district characteristics
+- **Breaking Changes**: Users will need to re-select themes after update due to name changes
+- **Reasoning**: Original "Super" theme names were too generic and likely already taken on marketplace. Berlin postal district concept provides unique branding, cultural depth, and memorable identity while maintaining the existing color palettes and technical quality.
 
 ### December 12, 2025 - Version 1.2.2 Update
 - **Version Bump**: Updated version from 1.2.1 to 1.2.2

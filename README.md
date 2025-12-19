@@ -1,31 +1,29 @@
-# Super Theme Collection
+# Berlin Postal Themes
 
-A sophisticated collection of VS Code themes featuring carefully crafted color palettes.
+VS Code themes inspired by historic Berlin postal districts (Postzustellbezirke). Each theme represents a different district from West Berlin's postal system, bringing a piece of Berlin's urban history to your coding environment.
 
-## Changelog
+## About Berlin Postzustellbezirke
+
+The Postzustellbezirke were postal delivery districts used in Berlin from the 1960s to 1993. These codes helped organize mail delivery across the divided city. This theme collection pays homage to three West Berlin districts, each with its own character and coding atmosphere.
 
 ## Available Themes
 
-### Super Black
-A sophisticated dark theme inspired by the GitHub Dark Colorblind theme with deep black backgrounds for comfortable low-light coding.
+### NW21 (Nordwest 21 - Moabit)
+A soft light theme with a gentle blue tint, representing the industrial and creative spirit of Moabit. Perfect for comfortable extended coding sessions in bright environments.
 
-### Super White
-A clean light theme based on GitHub Light Colorblind with crisp whites and high contrast for bright environment coding.
+### W30 (West 30 - Schöneberg)
+An ultra-dark theme inspired by Schöneberg's vibrant nightlife and cultural scene. Deep black backgrounds (#010409) provide maximum contrast for low-light coding.
 
-### Super Light
-A soft light theme with a gentle blue tint, offering a comfortable and easy-on-the-eyes experience for bright environment coding.
-
-### Super Blue
-A calming blue-tinted dark theme with blue backgrounds and accents, perfect for a soothing coding experience in low-light environments.
+### SW61 (Südwest 61 - Kreuzberg)
+A calming blue-tinted dark theme reflecting Kreuzberg's alternative culture and creative energy. Blue backgrounds and accents create a soothing coding experience.
 
 ## Features
 
-- **Multiple Variants**: Black, White, Light, and Blue themes for different lighting conditions and preferences
-- **Deep Black Background**: Ultra-dark editor background (#010409) for reduced eye strain in low-light environments
-- **Clean White Background**: Pure white editor background (#ffffff) for bright, high-contrast environments
-- **Soft Light Background**: Gentle blue-tinted editor background (#e8eefe) for comfortable bright environment coding
-- **Calming Blue Background**: Blue-tinted editor background (#0a0e1a) for a soothing coding experience
-- **High Contrast**: Carefully balanced contrast ratios for excellent readability across all variants
+- **Berlin Heritage**: Three distinct themes inspired by historic West Berlin postal districts
+- **NW21 Moabit**: Soft light theme with gentle blue tint (#e8eefe) for comfortable extended coding
+- **W30 Schöneberg**: Ultra-dark theme with deep black background (#010409) for low-light environments
+- **SW61 Kreuzberg**: Blue-tinted dark theme (#00205A) for a calming coding experience
+- **High Contrast**: Carefully balanced contrast ratios for excellent readability across all themes
 - **Comprehensive Coverage**: Full theming of all VS Code UI elements including editor, sidebar, terminal, and panels
 - **Syntax Highlighting**: Rich color palette for code syntax highlighting across multiple programming languages
 - **Git Integration**: Clear visual indicators for git status and diff highlighting
@@ -34,26 +32,8 @@ A calming blue-tinted dark theme with blue backgrounds and accents, perfect for 
 
 ## Color Palettes
 
-### Super Black
-The dark theme uses a refined color palette based on GitHub's dark design system:
-
-- **Primary Background**: `#010409` - Deep black for main editor
-- **Secondary Background**: `#0d1117` - Slightly lighter for tabs and headers
-- **Accent Color**: `#f78166` - Orange accent for active elements
-- **Text Primary**: `#c9d1d9` - High contrast white for main text
-- **Text Secondary**: `#8b949e` - Muted for secondary text
-
-### Super White
-The light theme uses a clean color palette based on GitHub's light design system:
-
-- **Primary Background**: `#ffffff` - Pure white for main editor
-- **Secondary Background**: `#f6f8fa` - Light gray for tabs and headers
-- **Accent Color**: `#fd7e14` - Orange accent for active elements
-- **Text Primary**: `#1f2328` - High contrast black for main text
-- **Text Secondary**: `#656d76` - Muted for secondary text
-
-### Super Light
-The soft light theme uses a gentle color palette with blue tints for comfortable extended coding sessions:
+### NW21 (Nordwest 21 - Moabit)
+A soft light theme inspired by Moabit's industrial and creative character:
 
 - **Primary Background**: `#e8eefe` - Soft blue tint for main editor
 - **Secondary Background**: `#f6f8fa` - Light gray for tabs and headers
@@ -61,22 +41,30 @@ The soft light theme uses a gentle color palette with blue tints for comfortable
 - **Text Primary**: `#1f2328` - High contrast black for main text
 - **Text Secondary**: `#656d76` - Muted for secondary text
 
-### Super Blue
+### W30 (West 30 - Schöneberg)
+An ultra-dark theme reflecting Schöneberg's vibrant nightlife:
 
-The blue theme uses a calming blue-tinted color palette for a soothing coding experience:
+- **Primary Background**: `#010409` - Deep black for main editor
+- **Secondary Background**: `#0d1117` - Slightly lighter for tabs and headers
+- **Accent Color**: `#f78166` - Orange accent for active elements
+- **Text Primary**: `#c9d1d9` - High contrast white for main text
+- **Text Secondary**: `#8b949e` - Muted for secondary text
 
-- **Primary Background**: `#0a0e1a` - Deep blue-black for main editor
-- **Secondary Background**: `#1a202c` - Slightly lighter blue for tabs and headers
-- **Accent Color**: `#3182ce` - Blue accent for active elements
-- **Text Primary**: `#e2e8f0` - High contrast white for main text
-- **Text Secondary**: `#a0aec0` - Muted for secondary text
+### SW61 (Südwest 61 - Kreuzberg)
+A calming blue theme representing Kreuzberg's alternative culture:
+
+- **Primary Background**: `#00205A` - Deep blue for main editor
+- **Secondary Background**: `#0d1117` - Slightly lighter for tabs and headers
+- **Accent Color**: `#f78166` - Orange accent for active elements
+- **Text Primary**: `#c9d1d9` - High contrast white for main text
+- **Text Secondary**: `#8b949e` - Muted for secondary text
 
 ### Syntax Colors (All Themes)
-- **Keywords**: Red tones for language keywords
+- **Keywords**: Red and orange tones for language keywords
 - **Strings**: Blue tones for string literals
 - **Functions**: Purple tones for function names
 - **Numbers**: Blue tones for numeric literals
-- **Comments**: Gray tones with italic styling
+- **Comments**: Gray tones for readability
 
 ## Installation
 
@@ -84,12 +72,12 @@ The blue theme uses a calming blue-tinted color palette for a soothing coding ex
 1. Clone this repository
 2. Copy the theme files to your VS Code extensions directory
 3. Open VS Code and go to Preferences > Color Theme
-4. Select "Super Black", "Super White", "Super Light", or "Super Blue" from the list
+4. Select your preferred Berlin district theme: "NW21", "W30", or "SW61"
 
 ### Development Installation
 1. Open this project in VS Code
 2. Press `F5` to launch Extension Development Host
-3. In the new window, select "Super Black", "Super White", "Super Light", or "Super Blue" theme
+3. In the new window, select your preferred Berlin district theme
 
 ## Customization
 
@@ -98,17 +86,14 @@ You can customize specific colors by adding overrides to your VS Code settings:
 ```json
 {
   "workbench.colorCustomizations": {
-    "[Super Black]": {
-      "editor.background": "#000000"
-    },
-    "[Super White]": {
-      "editor.background": "#f8f9fa"
-    },
-    "[Super Light]": {
+    "[NW21 (Nordwest 21 - Moabit)]": {
       "editor.background": "#f0f4ff"
     },
-    "[Super Blue]": {
-      "editor.background": "#0c1221"
+    "[W30 (West 30 - Schöneberg)]": {
+      "editor.background": "#000000"
+    },
+    "[SW61 (Südwest 61 - Kreuzberg)]": {
+      "editor.background": "#001a4d"
     }
   }
 }
@@ -116,23 +101,32 @@ You can customize specific colors by adding overrides to your VS Code settings:
 
 ## Screenshots
 
-### Super Black Theme
-![Super Black Theme](docs/images/super.themes-black.png)
+### NW21 (Nordwest 21 - Moabit)
+![NW21 Theme](docs/images/super-themes-light.png)
 
-### Super White Theme
-![Super White Theme](docs/images/super-themes-white.png)
+### W30 (West 30 - Schöneberg)
+![W30 Theme](docs/images/super.themes-black.png)
 
-### Super Blue Theme
-![Super Blue Theme](docs/images/super-themes-blue.png)
-
-### Super Light Theme
-![Super Light Theme](docs/images/super-themes-light.png)
+### SW61 (Südwest 61 - Kreuzberg)
+![SW61 Theme](docs/images/super-themes-blue.png)
 
 ## License
 
 MIT License - see LICENSE file for details.
 
 ## Changelog
+
+### 2.0.0
+
+- **Major Rebrand**: Renamed from "Super Theme Collection" to "Berlin Postal Themes"
+- **Theme Renames**: 
+  - Super Light → NW21 (Nordwest 21 - Moabit)
+  - Super Black → W30 (West 30 - Schöneberg)
+  - Super Blue → SW61 (Südwest 61 - Kreuzberg)
+- **Removed**: Super White theme discontinued
+- **Theme Concept**: Themes now inspired by historic Berlin postal districts (Postzustellbezirke)
+- **Updated Documentation**: Complete rewrite with Berlin heritage context
+- **Breaking Change**: Theme names and file names have changed; users will need to re-select their preferred theme
 
 ### 1.2.0
 
