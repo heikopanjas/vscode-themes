@@ -1,59 +1,59 @@
 {
-  "name": "berlin-postal-themes",
-  "displayName": "Berlin Postal Themes",
-  "description": "VS Code themes inspired by historic Berlin postal districts (Postzustellbezirke) - NW21 Moabit, W30 Schöneberg, and SW61 Kreuzberg",
-  "version": "2.0.1",
-  "icon": "super-themes.png",
-  "engines": {
-    "vscode": "^1.74.0"
-  },
-  "categories": [
-    "Themes"
-  ],
-  "keywords": [
-    "theme",
-    "dark",
-    "light",
-    "berlin",
-    "postal",
-    "postzustellbezirke",
-    "moabit",
-    "schöneberg",
-    "kreuzberg",
-    "color-theme",
-    "collection"
-  ],
-  "contributes": {
-    "themes": [
-      {
-        "label": "NW21 (Nordwest 21 - Moabit)",
-        "uiTheme": "vs",
-        "path": "./themes/nw21-color-theme.json"
-      },
-      {
-        "label": "W30 (West 30 - Schöneberg)",
-        "uiTheme": "vs-dark",
-        "path": "./themes/w30-color-theme.json"
-      },
-      {
-        "label": "SW61 (Südwest 61 - Kreuzberg)",
-        "uiTheme": "vs-dark",
-        "path": "./themes/sw61-color-theme.json"
-      }
-    ]
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/heikopanjas/vscode-themes"
-  },
-  "author": {
-    "name": "Heiko Panjas"
-  },
-  "license": "MIT",
-  "publisher": "heikopanjas",
-  "scripts": {
-    "build": "vsce package --out ./dist/",
-    "install-local": "code --install-extension ./dist/*.vsix",
-    "validate": "vsce package --out ./dist/ --no-dependencies"
-  }
+    "name": "berlin-postal-themes",
+    "displayName": "Berlin Postal Themes",
+    "description": "VS Code themes inspired by historic Berlin postal districts (Postzustellbezirke) - NW21 Moabit, W30 Schöneberg, and SW61 Kreuzberg",
+    "version": "2.0.2",
+    "icon": "super-themes.png",
+    "engines": {
+        "vscode": "^1.74.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "keywords": [
+        "theme",
+        "dark",
+        "light",
+        "berlin",
+        "postal",
+        "postzustellbezirke",
+        "moabit",
+        "schöneberg",
+        "kreuzberg",
+        "color-theme",
+        "collection"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "NW21 (Nordwest 21 - Moabit)",
+                "uiTheme": "vs",
+                "path": "./themes/nw21-color-theme.json"
+            },
+            {
+                "label": "W30 (West 30 - Schöneberg)",
+                "uiTheme": "vs-dark",
+                "path": "./themes/w30-color-theme.json"
+            },
+            {
+                "label": "SW61 (Südwest 61 - Kreuzberg)",
+                "uiTheme": "vs-dark",
+                "path": "./themes/sw61-color-theme.json"
+            }
+        ]
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/heikopanjas/vscode-themes"
+    },
+    "author": {
+        "name": "Heiko Panjas"
+    },
+    "license": "MIT",
+    "publisher": "heikopanjas",
+    "scripts": {
+        "build": "vsce package --out ./dist/",
+        "install-local": "code --install-extension ./dist/*.vsix",
+        "validate": "vsce package --out ./dist/ --no-dependencies"
+    }
 }
