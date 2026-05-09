@@ -9,10 +9,11 @@ This is a VS Code theme development project for **Berlin Postal Themes**, a coll
 - **NW21** (Nordwest 21 - Moabit) - Soft light theme with gentle blue-tinted backgrounds (#e8eefe) for comfortable extended coding
 - **W30** (West 30 - Schöneberg) - Ultra-dark theme with deep black backgrounds (#010409) for low-light coding
 - **SW61** (Südwest 61 - Kreuzberg) - Blue-tinted dark theme with blue backgrounds (#00205A) for a calming coding experience
+- **SO36** (Südost 36 - Kreuzberg) - Medium-dark blue theme with cyan title bar (#204b81) for the punk heart of Kreuzberg
 
 ### Current Status
 
-All three theme variants are implemented and functional. The extension has been rebranded from "Super Theme Collection" to "Berlin Postal Themes" and is ready for testing, packaging, and marketplace publication at version 2.0.0.
+All four theme variants are implemented and functional. The extension has been rebranded from "Super Theme Collection" to "Berlin Postal Themes" and is ready for testing, packaging, and marketplace publication at version 2.0.0.
 
 ## Project Structure
 
@@ -26,7 +27,8 @@ berlin-postal-themes/
 ├── themes/                              # Theme definition files
 │   ├── nw21-color-theme.json         # Complete - NW21 Moabit light theme
 │   ├── w30-color-theme.json          # Complete - W30 Schöneberg dark theme
-│   └── sw61-color-theme.json         # Complete - SW61 Kreuzberg blue theme
+│   ├── sw61-color-theme.json         # Complete - SW61 Kreuzberg blue theme
+│   └── so36-color-theme.json         # Complete - SO36 Kreuzberg medium-dark blue theme
 ├── .github/                             # GitHub configuration
 │   └── workflows/                       # GitHub Actions workflows
 │       └── build-vsix.yml               # Automated VSIX build workflow
@@ -62,7 +64,7 @@ berlin-postal-themes/
 ### File Naming Conventions
 
 - Theme files: `[district-code]-color-theme.json`
-- District codes: `nw21`, `w30`, `sw61`
+- District codes: `nw21`, `w30`, `sw61`, `so36`
 - Use kebab-case and lowercase for file names
 - Maintain consistent naming across all theme variants
 
@@ -71,6 +73,7 @@ berlin-postal-themes/
 - **NW21 (Moabit)**: Soft light backgrounds (#e8eefe), gentle blue tint, comfortable extended coding
 - **W30 (Schöneberg)**: Ultra-dark backgrounds (#010409), high contrast, minimal eye strain for low-light
 - **SW61 (Kreuzberg)**: Blue-tinted backgrounds (#00205A), calming atmosphere, balanced contrast
+- **SO36 (Kreuzberg)**: Medium-dark blue backgrounds (#204b81), cyan title bar (#00ccff), punk energy of SO36
 - **Berlin Heritage**: Each theme reflects the character of its historic postal district
 - **Consistency**: Maintain similar syntax highlighting patterns across variants
 - **Accessibility**: Ensure all variants meet WCAG contrast requirements
@@ -100,6 +103,15 @@ berlin-postal-themes/
 - Type: vs-dark
 - Character: Kreuzberg's alternative culture
 - Calming blue tones for focused coding
+
+**SO36 (Südost 36 - Kreuzberg):**
+- Editor background: #204b81 (medium-dark blue)
+- Foreground: #c9d1d9 (light gray)
+- Cursor: #58a6ff (blue accent)
+- Title bar: #00ccff (distinctive cyan)
+- Type: vs-dark
+- Character: The punk heart of Kreuzberg, raw energy and creativity
+- Bold contrast with vibrant cyan accent
 
 ### Testing and Validation
 
@@ -222,6 +234,7 @@ When the user requests to "commit the latest changes" or similar:
 - [x] NW21 (Moabit) - Soft light theme
 - [x] W30 (Schöneberg) - Ultra-dark theme
 - [x] SW61 (Kreuzberg) - Blue-tinted dark theme
+- [x] SO36 (Kreuzberg) - Medium-dark blue theme with cyan title bar
 - [x] Major rebrand to Berlin Postal Themes
 - [x] Updated documentation with Berlin heritage context
 - [ ] Cross-variant consistency testing
@@ -230,10 +243,20 @@ When the user requests to "commit the latest changes" or similar:
 - [ ] Marketplace publication with new branding
 
 ---
-*Last updated: May 9, 2026*
+*Last updated: May 10, 2026*
 *Update these instructions as the project evolves and new requirements emerge.*
 
 ## Recent Updates & Decisions
+
+### May 10, 2026 - SO36 Theme Added
+
+- **New Theme**: Added SO36 (Südost 36 - Kreuzberg) as fourth theme variant
+- **File**: themes/so36-color-theme.json with corrected type from light to dark
+- **Distinctive Feature**: Cyan title bar (#00ccff) sets it apart from SW61
+- **Editor Background**: #204b81 (medium-dark blue, brighter than SW61 #00205A)
+- **package.json**: Registered SO36 as vs-dark uiTheme, updated description and keywords
+- **Reasoning**: SO36 is the iconic Kreuzberg postal sub-district, distinct cultural
+  identity from SW61 despite both being in Kreuzberg
 
 ### May 9, 2026 - Session Initialization
 
