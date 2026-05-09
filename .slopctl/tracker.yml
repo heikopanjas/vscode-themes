@@ -1,0 +1,35 @@
+.gitattributes:
+  original_sha: b06645d6d1fca42aa742230b5ea0875ba8b996198073db1872402a9ca7ac6356
+  template_version: 5
+  installed_date: 2026-05-09T21:58:30.453650+00:00
+  lang: none
+  agent: all
+  category: integration
+.github/prompts/init-session.prompt.md:
+  original_sha: 44e08a0ddf49895b4ab13a4263f8f3b03e3f07118fd5ffcba7491ef42e977f32
+  template_version: 5
+  installed_date: 2026-05-09T21:58:30.454115+00:00
+  lang: none
+  agent: copilot
+  category: integration
+.github/skills/git-workflow/SKILL.md:
+  original_sha: f24b140068e82da965a6a418388f1e13b25efffae67073172d828654242b8d3f
+  template_version: 5
+  installed_date: 2026-05-09T21:58:30.454562+00:00
+  lang: none
+  agent: all
+  category: skill
+AGENTS.md:
+  original_sha: 79bec6ae326e91a6fda0edc78c235af27958076501a5a497b29dd617b4bc2fed
+  template_version: 0
+  installed_date: 2026-05-09T21:58:30.450505+00:00
+  lang: none
+  agent: all
+  category: main
+.github/skills/semantic-versioning/SKILL.md:
+  original_sha: 1dafed38ef2647b30a990117fdfd868502a8a52e52360ce5038b8f256163fade
+  template_version: 5
+  installed_date: 2026-05-09T21:58:30.454983+00:00
+  lang: none
+  agent: all
+  category: skill
