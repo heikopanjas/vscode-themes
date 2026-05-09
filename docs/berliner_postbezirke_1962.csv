@@ -1,0 +1,59 @@
+PLZ,Bezirksnummer,Bezeichnung,Ortsteil,Gebiet,Stadtteil
+1000,10,Berlin 10,Charlottenburg 1,Otto-Suhr-Allee,West-Berlin
+1000,11,Berlin 11,Kreuzberg,Möckernstraße,West-Berlin
+1000,12,Berlin 12,Charlottenburg 2,Goethestraße,West-Berlin
+1000,15,Berlin 15,Wilmersdorf,Lietzenburger Straße,West-Berlin
+1000,19,Berlin 19,Charlottenburg 9,Soorstraße/Westend,West-Berlin
+1000,20,Berlin 20,Spandau,Spandau,West-Berlin
+1000,21,Berlin 21,Moabit,Moabit/Hansaviertel,West-Berlin
+1000,22,Berlin 22,Kladow,Kladow/Gatow,West-Berlin
+1000,26,Berlin 26,Wittenau,Wittenau/Märkisches Viertel,West-Berlin
+1000,27,Berlin 27,Tegel,Tegel/Borsigwalde/Konradshöhe/Heiligensee,West-Berlin
+1000,28,Berlin 28,Hermsdorf,Hermsdorf/Frohnau/Waidmannslust/Lübars,West-Berlin
+1000,30,Berlin 30,Schöneberg-Nord,Geisbergstraße,West-Berlin
+1000,31,Berlin 31,Wilmersdorf,Wilmersdorf/Halensee,West-Berlin
+1000,33,Berlin 33,Grunewald,Grunewald/Dahlem/Schmargendorf,West-Berlin
+1000,36,Berlin 36,Kreuzberg-Ost,SO 36,West-Berlin
+1000,37,Berlin 37,Zehlendorf,Zehlendorf/Schlachtensee,West-Berlin
+1000,38,Berlin 38,Nikolassee,Nikolassee,West-Berlin
+1000,39,Berlin 39,Wannsee,Wannsee,West-Berlin
+1000,41,Berlin 41,Steglitz,Steglitz/Friedenau/Südende,West-Berlin
+1000,42,Berlin 42,Tempelhof,Tempelhof/Mariendorf,West-Berlin
+1000,44,Berlin 44,Neukölln,Neukölln,West-Berlin
+1000,45,Berlin 45,Lichterfelde,Lichterfelde,West-Berlin
+1000,46,Berlin 46,Lankwitz,Lankwitz,West-Berlin
+1000,47,Berlin 47,Britz,Britz,West-Berlin
+1000,48,Berlin 48,Marienfelde,Marienfelde,West-Berlin
+1000,49,Berlin 49,Lichtenrade,Lichtenrade,West-Berlin
+1000,61,Berlin 61,Kreuzberg,SW 61/Tempelhofer Ufer,West-Berlin
+1000,62,Berlin 62,Schöneberg,Hauptstraße,West-Berlin
+1000,65,Berlin 65,Wedding,Wedding/Gerichtstraße,West-Berlin
+1020,2,Berlin 2,Mitte,Rathausstraße,Ost-Berlin
+1017,17,Berlin 17,Friedrichshain,Ostbahnhof/Str. der Pariser Kommune,Ost-Berlin
+1034,34,Berlin 34,Friedrichshain,Boxhagener Straße,Ost-Berlin
+1035,35,Berlin 35,Friedrichshain,Gabelsbergerstraße,Ost-Berlin
+1040,4,Berlin 4,Mitte,Nordbahnhof/Tucholskystraße,Ost-Berlin
+1054,54,Berlin 54,Prenzlauer Berg,Torstraße,Ost-Berlin
+1055,55,Berlin 55,Prenzlauer Berg,Marienburger Straße,Ost-Berlin
+1058,58,Berlin 58,Prenzlauer Berg,Eberswalder Straße,Ost-Berlin
+1071,71,Berlin 71,Prenzlauer Berg,Bornholmer Straße,Ost-Berlin
+1080,8,Berlin 8,Mitte,Französische Straße,Ost-Berlin
+1100,,Pankow,Pankow,Pankow,Ost-Berlin
+1110,,Weißensee,Weißensee,Weißensee,Ost-Berlin
+1113,,Buchholz,Buchholz,Französisch Buchholz,Ost-Berlin
+1115,,Buch,Buch,Buch,Ost-Berlin
+1120,,Lichtenberg,Lichtenberg,Lichtenberg,Ost-Berlin
+1122,,Blankenburg,Blankenburg,Blankenburg,Ost-Berlin
+1130,,Hohenschönhausen,Hohenschönhausen,Alt-Hohenschönhausen,Ost-Berlin
+1136,,Friedrichsfelde,Friedrichsfelde,Friedrichsfelde,Ost-Berlin
+1140,,Biesdorf,Biesdorf,Biesdorf,Ost-Berlin
+1150,,Marzahn,Marzahn,Marzahn,Ost-Berlin
+1156,,Hellersdorf,Hellersdorf,Hellersdorf,Ost-Berlin
+1162,,Friedrichshagen,Friedrichshagen,Friedrichshagen,Ost-Berlin
+1170,,Köpenick,Köpenick,Köpenick,Ost-Berlin
+1180,,Grünau,Grünau,Grünau,Ost-Berlin
+1183,,Bohnsdorf,Bohnsdorf,Bohnsdorf,Ost-Berlin
+1185,,Altglienicke,Altglienicke,Altglienicke,Ost-Berlin
+1195,,Baumschulenweg,Baumschulenweg,Baumschulenweg,Ost-Berlin
+1196,,Treptow,Treptow,Alt-Treptow/Plänterwald,Ost-Berlin
+1199,,Adlershof,Adlershof,Adlershof,Ost-Berlin

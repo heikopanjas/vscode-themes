@@ -209,10 +209,16 @@ When the user requests to "commit the latest changes" or similar:
 - [ ] Marketplace publication with new branding
 
 ---
-*Last updated: December 19, 2025*
+*Last updated: May 9, 2026*
 *Update these instructions as the project evolves and new requirements emerge.*
 
 ## Recent Updates & Decisions
+
+### May 9, 2026 - Session Initialization
+- **Session Start**: Initialized new coding session, reviewed full AGENTS.md and project state
+- **Commit Rules Reinforced**: Conventional commits format, max 500 chars, no special characters or quoting, never commit automatically
+- **Current Focus**: Cross-variant consistency testing, accessibility compliance, icon update, and marketplace publication remain as next steps
+- **Reasoning**: Keeping AGENTS.md up to date with session activity and current project state
 
 ### December 19, 2025 - Version 2.0.0 Major Rebrand
 - **Major Rebrand**: Complete transformation from "Super Theme Collection" to "Berlin Postal Themes"
