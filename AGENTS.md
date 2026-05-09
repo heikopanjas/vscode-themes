@@ -1,17 +1,21 @@
 # VS Code Theme Development - Copilot Instructions
 
 ## Project Overview
+
 This is a VS Code theme development project for **Berlin Postal Themes**, a collection of themes inspired by historic Berlin postal districts (Postzustellbezirke). Each theme represents a different West Berlin postal district from the 1960s-1993 era, bringing Berlin's urban history to the coding experience.
 
 ### Theme Variants
+
 - **NW21** (Nordwest 21 - Moabit) - Soft light theme with gentle blue-tinted backgrounds (#e8eefe) for comfortable extended coding
 - **W30** (West 30 - Schöneberg) - Ultra-dark theme with deep black backgrounds (#010409) for low-light coding
 - **SW61** (Südwest 61 - Kreuzberg) - Blue-tinted dark theme with blue backgrounds (#00205A) for a calming coding experience
 
 ### Current Status
+
 All three theme variants are implemented and functional. The extension has been rebranded from "Super Theme Collection" to "Berlin Postal Themes" and is ready for testing, packaging, and marketplace publication at version 2.0.0.
 
 ## Project Structure
+
 ```
 berlin-postal-themes/
 ├── package.json                          # Extension manifest (Complete)
@@ -39,6 +43,7 @@ berlin-postal-themes/
 ## Development Guidelines
 
 ### Theme Development Best Practices
+
 1. **Color Consistency**: Maintain consistent color relationships across all UI elements
 2. **Accessibility**: Ensure sufficient contrast ratios for readability
 3. **Language Support**: Test theme with multiple programming languages
@@ -46,6 +51,7 @@ berlin-postal-themes/
 5. **Dark/Light Variants**: Consider providing both dark and light theme variants
 
 ### Key Theme Areas to Cover
+
 - **Editor Colors**: Background, foreground, selection, line highlighting
 - **Syntax Highlighting**: Keywords, strings, comments, functions, variables
 - **UI Colors**: Sidebar, activity bar, status bar, tabs, panels
@@ -54,12 +60,14 @@ berlin-postal-themes/
 - **Error/Warning Colors**: Diagnostic highlighting and problem indicators
 
 ### File Naming Conventions
+
 - Theme files: `[district-code]-color-theme.json`
 - District codes: `nw21`, `w30`, `sw61`
 - Use kebab-case and lowercase for file names
 - Maintain consistent naming across all theme variants
 
 ### Theme Variant Guidelines
+
 - **NW21 (Moabit)**: Soft light backgrounds (#e8eefe), gentle blue tint, comfortable extended coding
 - **W30 (Schöneberg)**: Ultra-dark backgrounds (#010409), high contrast, minimal eye strain for low-light
 - **SW61 (Kreuzberg)**: Blue-tinted backgrounds (#00205A), calming atmosphere, balanced contrast
@@ -68,6 +76,7 @@ berlin-postal-themes/
 - **Accessibility**: Ensure all variants meet WCAG contrast requirements
 
 ### Current Theme Specifications
+
 **NW21 (Nordwest 21 - Moabit):**
 - Editor background: #e8eefe (soft blue-tinted)
 - Foreground: #1f2328 (dark gray)
@@ -93,12 +102,14 @@ berlin-postal-themes/
 - Calming blue tones for focused coding
 
 ### Testing and Validation
+
 1. **Multi-language Testing**: Test with TypeScript, JavaScript, Python, JSON, Markdown, etc.
 2. **UI Element Coverage**: Verify all VS Code interface elements are properly themed
 3. **Color Blindness**: Test with color blindness simulators
 4. **Different Screen Types**: Test on various displays (retina, standard, dark rooms)
 
 ### Common Tasks
+
 - **Testing Themes**: Use F5 to launch Extension Development Host and test all theme variants
 - **Build VSIX Locally**: Use `npm run build` to create installable .vsix file in ./dist/
 - **Install Locally**: Use `npm run install-local` or `code --install-extension ./dist/*.vsix`
@@ -110,6 +121,7 @@ berlin-postal-themes/
 - **Screenshot Generation**: Create preview images showing each theme variant
 
 ### Extension Development
+
 - **Activation Events**: Themes activate on `*` (startup)
 - **Contribution Points**: Use `themes` contribution point in package.json
 - **Categories**: Use "Themes" category for marketplace
@@ -118,6 +130,7 @@ berlin-postal-themes/
 - **Version**: Currently at 2.0.0 (major rebrand), ready for marketplace publication
 
 ### Next Steps & Publishing
+
 1. **Testing**: Use F5 to test themes in Extension Development Host
 2. **Icon Creation**: ✅ Extension icon added (super-themes.png)
 3. **Screenshots**: ✅ Theme preview images added to README
@@ -126,6 +139,7 @@ berlin-postal-themes/
 6. **Manual Publishing**: Use `vsce publish` to publish to marketplace (if desired)
 
 ### GitHub Actions Workflow
+
 The project includes an automated build workflow (`.github/workflows/build-vsix.yml`) that:
 
 **Triggers:**
@@ -151,6 +165,7 @@ The project includes an automated build workflow (`.github/workflows/build-vsix.
 ## AI Assistant Guidelines
 
 ### When Helping with Theme Development
+
 1. **Color Theory**: Apply principles of color harmony and accessibility
 2. **VS Code API**: Reference official VS Code theme color documentation
 3. **JSON Structure**: Maintain proper theme file structure and syntax
@@ -158,6 +173,7 @@ The project includes an automated build workflow (`.github/workflows/build-vsix.
 5. **Marketplace Preparation**: Help with extension packaging and publishing
 
 ### Git Workflow Automation
+
 When the user requests to "commit the latest changes" or similar:
 1. **Stage Changes**: Automatically stage all modified files using `git add .`
 2. **Commit Message**: Write detailed but concise commit messages using conventional commits format:
@@ -172,23 +188,27 @@ When the user requests to "commit the latest changes" or similar:
 4. **Format**: Use format like `type(scope): description` where scope is optional
 
 ### Code Quality Standards
+
 - Validate JSON syntax in theme files
 - Ensure all required package.json fields are present
 - Follow semantic versioning for releases
 - Maintain clean, documented code structure
 
 ### Common Issues to Watch For
+
 - Missing color definitions causing fallbacks to default theme
 - Insufficient contrast ratios for accessibility
 - Inconsistent color usage across similar UI elements
 - Missing theme coverage for new VS Code features
 
 ## Resources
+
 - [VS Code Theme Color Reference](https://code.visualstudio.com/api/references/theme-color)
 - [Color Theme Guide](https://code.visualstudio.com/api/extension-guides/color-theme)
 - [Extension Marketplace Guidelines](https://code.visualstudio.com/api/working-with-extensions/publishing-extension)
 
 ## Development Workflow
+
 1. Set up basic extension structure with package.json
 2. Create initial theme variant (Black - completed)
 3. Test in Extension Development Host
@@ -198,6 +218,7 @@ When the user requests to "commit the latest changes" or similar:
 7. Prepare for marketplace publication
 
 ### Theme Development Roadmap
+
 - [x] NW21 (Moabit) - Soft light theme
 - [x] W30 (Schöneberg) - Ultra-dark theme
 - [x] SW61 (Kreuzberg) - Blue-tinted dark theme
@@ -215,15 +236,17 @@ When the user requests to "commit the latest changes" or similar:
 ## Recent Updates & Decisions
 
 ### May 9, 2026 - Session Initialization
+
 - **Session Start**: Initialized new coding session, reviewed full AGENTS.md and project state
 - **Commit Rules Reinforced**: Conventional commits format, max 500 chars, no special characters or quoting, never commit automatically
 - **Current Focus**: Cross-variant consistency testing, accessibility compliance, icon update, and marketplace publication remain as next steps
 - **Reasoning**: Keeping AGENTS.md up to date with session activity and current project state
 
 ### December 19, 2025 - Version 2.0.0 Major Rebrand
+
 - **Major Rebrand**: Complete transformation from "Super Theme Collection" to "Berlin Postal Themes"
 - **Extension Rename**: Changed package name from "super-themes" to "berlin-postal-themes"
-- **Theme Renames**: 
+- **Theme Renames**:
   - Super Light → NW21 (Nordwest 21 - Moabit)
   - Super Black → W30 (West 30 - Schöneberg)
   - Super Blue → SW61 (Südwest 61 - Kreuzberg)
@@ -236,15 +259,18 @@ When the user requests to "commit the latest changes" or similar:
 - **Reasoning**: Original "Super" theme names were too generic and likely already taken on marketplace. Berlin postal district concept provides unique branding, cultural depth, and memorable identity while maintaining the existing color palettes and technical quality.
 
 ### December 12, 2025 - Version 1.2.2 Update
+
 - **Version Bump**: Updated version from 1.2.1 to 1.2.2
 - **Reasoning**: Preparing for next release iteration
 
 ### December 12, 2025 - Version 1.2.1 Update
+
 - **Version Bump**: Updated version from 1.2.0 to 1.2.1
 - **Theme Refinement**: Removed italic formatting from comments in Super Light theme for better readability
 - **Reasoning**: Minor styling improvement to enhance code readability in the Super Light theme variant
 
 ### December 12, 2025 - Version 1.2.0 Update
+
 - **Version Documentation**: Updated AGENTS.md to reflect current version 1.2.0 from package.json
 - **Super Light Theme**: Added documentation for the fourth theme variant (Super Light) with soft blue-tinted backgrounds (#e8eefe)
 - **Extension Name Correction**: Updated extension name from "super-theme-collection" to "super-themes" to match package.json
@@ -253,6 +279,7 @@ When the user requests to "commit the latest changes" or similar:
 - **Reasoning**: Synchronizing documentation with actual codebase state, ensuring all four themes are properly documented for marketplace publication
 
 ### September 17, 2025 - Version 1.1.2 Update
+
 - **Version Bump**: Updated version from 1.1.1 to 1.1.2 across package.json, README.md, and copilot instructions
 - **Extension Icon**: Added super-themes.png as extension icon for marketplace presentation
 - **Changelog Addition**: Added version 1.1.2 entry to README with icon addition notes
@@ -260,24 +287,28 @@ When the user requests to "commit the latest changes" or similar:
 - **Reasoning**: Completing marketplace readiness with custom branding on doc/add-icon branch
 
 ### September 17, 2025 - Version 1.1.1 Update
+
 - **Version Bump**: Updated version from 1.1.0 to 1.1.1 across package.json, README.md, and copilot instructions
 - **Documentation Improvements**: Added screenshots to README and removed Contributing section
 - **Changelog Addition**: Added version 1.1.1 entry to README with documentation improvement notes
 - **Reasoning**: Finalizing documentation with visual screenshots and cleaner structure on doc/add-screenshots branch
 
 ### September 17, 2025 - Version 1.1.0 Update
+
 - **Version Bump**: Updated version from 1.0.10 to 1.1.0 across package.json, README.md, and copilot instructions
 - **Changelog Addition**: Added version 1.1.0 entry to README with preparation notes for color theme improvements
 - **Documentation Updates**: Updated copilot instructions to reflect new version number
 - **Reasoning**: Preparing for upcoming color theme improvements and bug fixes on the fix/outdated-colors branch
 
 ### September 17, 2025 - Version 1.0.10 Update
+
 - **Version Bump**: Updated version from 1.0.9 to 1.0.10 across package.json, README.md, and documentation
 - **Changelog Addition**: Added version 1.0.10 entry to README with workflow improvement notes
 - **Documentation Updates**: Updated workflow README examples to use v1.0.10
 - **Reasoning**: Preparing for release with modernized GitHub Actions workflow and fixed permissions
 
 ### September 17, 2025
+
 - **Theme Name Update**: Changed from "Ultralove" to "Super" throughout documentation to match actual workspace implementation
 - **Version Correction**: Updated version reference from 0.1.0 to 1.0.7 to reflect current package.json
 - **Roadmap Status**: Marked Super White and Super Blue as complete since all three theme files exist in the workspace
