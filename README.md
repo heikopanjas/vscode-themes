@@ -141,6 +141,10 @@ You can customize specific colors by adding overrides to your VS Code settings:
 
 ![SW61 Theme](docs/images/super-themes-blue.png)
 
+### SO36 (Südost 36 - Kreuzberg)
+
+![SO36 Theme](docs/images/super-themes-so36.png)
+
 ## License
 
 MIT License - see LICENSE file for details.
