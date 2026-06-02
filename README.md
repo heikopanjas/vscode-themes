@@ -12,15 +12,15 @@ The Postzustellbezirke were postal delivery districts used in Berlin from the 19
 
 Named after the postal district that covered Moabit's factory quarter — home to the *AEG-Turbinenhalle* on Huttenstraße, Peter Behrens's 1909 masterpiece of industrial modernism and one of the first buildings where steel-and-glass engineering was treated as architecture in its own right. The hall's north-facing clerestory windows flood the interior with cool, diffused daylight that never bleaches or glares.
 
-That light is the theme. A pale sky-blue wash (`#e8eefe`) replaces clinical white — soft enough to read for hours without fatigue. Accents stay close to the palette: cool slate-blue for active elements (`#0969da`), muted punctuation, and a dark charcoal foreground (`#1f2328`) with just enough warmth to avoid the coldness of pure black. Nothing fights for attention; the colours work the way the Turbinenhalle's structure works — everything in service of what happens inside.
+That light is the theme. A pale sky-blue wash (`#e8eefe`) replaces clinical white — soft enough to read for hours without fatigue. Accents stay close to the palette: cool slate-blue for active elements (`#0969da`), muted punctuation, and a dark charcoal foreground (`#1f2328`) with just enough warmth to avoid the coldness of pure black. Nothing fights for attention; the colours work the way the vTurbinenhalle's structure works — everything in service of what happens inside.
 
 **Best for:** long sessions in bright rooms and anyone who finds pure-white themes too harsh.
 
 ### W30 (West 30 - Schöneberg)
 
-Named after the postal district centred on John-F.-Kennedy-Platz, where the *Rathaus Schöneberg* has stood since 1914 — a red-brick tower block that served as West Berlin's city hall for the entire duration of the division, and from whose tower the *Freiheitsglocke*, a replica of the Liberty Bell, still chimes every noon. When the floodlights go off, the tower disappears into the Berlin night: dark brick, dark sky, a single lit clock face.
+Named after the postal district whose two centres pull in opposite directions: *Winterfeldtplatz*, where the Saturday market packs the square with colour from dawn until early afternoon and the surrounding cafés stay lit well into the night; and *Nollendorfplatz*, a short walk south, where the 1902 Jugendstil junction building by Johannes Vollmer has anchored the heart of Schöneberg's nightlife for over a century. After midnight, when the market stalls are long gone and the square is empty, the two places belong to the same darkness.
 
-That darkness is the theme. The editor drops to near-black (`#010409`) — dark enough to dissolve the screen border in a dimly lit room. Text floats in cool silver-gray (`#c9d1d9`), catching the eye without burning it. The only colour comes from accent elements: a steel-blue cursor (`#58a6ff`) and warm coral-orange tab borders (`#f78166`) — the two colours you might see from a Schöneberg bar window at 2 a.m., neon blue and warm lamp-glow.
+That darkness is the theme. The editor drops to near-black (`#010409`) — dark enough to dissolve the screen border in a dimly lit room. Text floats in cool silver-gray (`#c9d1d9`), catching the eye without burning it. The only colour comes from accent elements: a steel-blue cursor (`#58a6ff`) and warm coral-orange tab borders (`#f78166`) — the cold blue of a bar sign reflected in wet cobblestones and the amber glow spilling from a window on Winterfeldtstraße at 2 a.m.
 
 **Best for:** night-time coding, dark rooms, and anyone who wants the screen to recede and only the code to glow.
 
@@ -34,9 +34,9 @@ That dusk is the theme. The editor background sinks to a deep navy (`#00205A`) �
 
 ### SO36 (Südost 36 - Kreuzberg)
 
-Named after the postal district whose eastern edge ends at the *Oberbaumbrücke* — the twin-towered red-brick bridge that was a heavily controlled border crossing for the entire duration of the Wall, and was reunited after 1989 with a new centre span by Santiago Calatrava: a skeletal steel arch that glows ice-blue under its floodlights, suspended between the two Gothic towers like something forced in from another century.
+Named after the postal district whose social centre is *Kottbusser Tor* — a brutalist concrete junction from the early 1970s where six streets converge under a raised housing block and the whole thing hums with the noise of the city at every hour. The *Kotti* is not picturesque. It is loud, dense, and lit from every angle: fluorescent tubes from the shops below, sodium-orange from the street lamps, cold white from the döner counters, and the hard blue wash of a security light catching the concrete overhead.
 
-That collision is the theme. The editor sits in a medium-dark cobalt (`#204b81`) — brighter and rawer than SW61's deep navy, because SO36 was never calm. The title bar breaks hard with a electric cyan (`#00ccff`), unmistakably Calatrava steel against a night sky. Text is the same reliable silver-gray (`#c9d1d9`), but here it reads like graffiti on brick: legible, purposeful, slightly confrontational.
+That overlap of hard light and raw structure is the theme. The editor sits in a medium-dark cobalt (`#204b81`) — brighter and rawer than SW61's deep navy, because the Kotti is never subdued. The title bar cuts through with electric cyan (`#00ccff`), the colour of that security light against bare concrete at midnight. Text is the same reliable silver-gray (`#c9d1d9`), but here it reads like a posted flyer: direct, purposeful, not asking permission.
 
 **Best for:** coders who want presence and energy from their environment, not just a neutral backdrop.
 
@@ -185,13 +185,18 @@ You can customize specific colors by adding overrides to your VS Code settings:
 
 ### SW11 (Südwest 11 - Kreuzberg)
 
-![SW11 Theme](docs/images/super-themes-so11.png)
+![SW11 Theme](docs/images/super-themes-sw11.png)
 
 ## License
 
 MIT License - see LICENSE file for details.
 
 ## Changelog
+
+### 2.2.1
+
+- **Documentation**: Revised theme descriptions for W30 and SO36
+- **Assets**: Renamed screenshot files to match district codes
 
 ### 2.2.0
 
