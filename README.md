@@ -169,19 +169,23 @@ You can customize specific colors by adding overrides to your VS Code settings:
 
 ### NW21 (Nordwest 21 - Moabit)
 
-![NW21 Theme](docs/images/super-themes-light.png)
+![NW21 Theme](docs/images/super-themes-nw21.png)
 
 ### W30 (West 30 - Schöneberg)
 
-![W30 Theme](docs/images/super.themes-black.png)
+![W30 Theme](docs/images/super-themes-w30.png)
 
 ### SW61 (Südwest 61 - Kreuzberg)
 
-![SW61 Theme](docs/images/super-themes-blue.png)
+![SW61 Theme](docs/images/super-themes-sw61.png)
 
 ### SO36 (Südost 36 - Kreuzberg)
 
 ![SO36 Theme](docs/images/super-themes-so36.png)
+
+### SW11 (Südwest 11 - Kreuzberg)
+
+![SW11 Theme](docs/images/super-themes-so11.png)
 
 ## License
 
