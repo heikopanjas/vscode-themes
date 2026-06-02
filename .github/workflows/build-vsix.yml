@@ -2,10 +2,10 @@ name: Build VSIX Package
 
 on:
   push:
-    branches: [main, 'feature/**']
-    tags: ['v*']
+    branches: [main, "feature/**"]
+    tags: ["v*"]
   pull_request:
-    branches: [main, 'feature/**']
+    branches: [main, "feature/**"]
   workflow_dispatch:
 
 permissions:
@@ -23,7 +23,7 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '20'
+          node-version: "20"
 
       - name: Install dependencies
         run: |
@@ -56,13 +56,12 @@ jobs:
 
       - name: Validate extension package
         run: |
+          mkdir -p ./dist
           npm run validate
 
       - name: Build VSIX package
         run: |
-          # Create dist directory if it doesn't exist
           mkdir -p ./dist
-          # Create VSIX package
           vsce package --out ./dist/
 
       - name: Get package info
