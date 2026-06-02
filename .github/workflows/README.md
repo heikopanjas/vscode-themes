@@ -1,6 +1,6 @@
 # GitHub Actions Workflow
 
-This directory contains GitHub Actions workflows for the Super Theme Collection.
+This directory contains GitHub Actions workflows for Berlin Postal Themes.
 
 ## build-vsix.yml
 

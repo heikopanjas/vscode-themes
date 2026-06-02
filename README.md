@@ -4,7 +4,7 @@ VS Code themes inspired by historic Berlin postal districts (Postzustellbezirke)
 
 ## About Berlin Postzustellbezirke
 
-The Postzustellbezirke were postal delivery districts used in Berlin from the 1960s to 1993. These codes helped organize mail delivery across the divided city. This theme collection pays homage to four West Berlin districts, each with its own character and coding atmosphere.
+The Postzustellbezirke were postal delivery districts used in Berlin from the 1960s to 1993. These codes helped organize mail delivery across the divided city. This theme collection pays homage to five West Berlin districts, each with its own character and coding atmosphere.
 
 ## Available Themes
 
@@ -44,7 +44,7 @@ That overlap of hard light and raw structure is the theme. The editor sits in a 
 
 Named after the *Großbriefverteileramt SW 11* beside the Anhalter Bahnhof — for decades the largest mail-sorting center in Berlin and, after 1962, the hub that routed letters for all of West Berlin. It is one of the few large 1930s buildings still standing in Kreuzberg, a listed monument whose pale natural-stone facade blends sober *Neues Bauen* lines with monumental classicism.
 
-That stone is the theme. A warm limestone white (`#f6f3ec`) stands in for clinical white, with restrained accents borrowed from the building and its station: wrought-iron slate-blue keywords (`#3c6070`), Anhalter brick-red strings (`#9c5a38`), and muted ochre numbers (`#a6781b`). Everything is deliberately desaturated so it stays calm across long sessions.
+That stone is the theme. A warm limestone white (`#f6f3ec`) stands in for clinical white, with restrained accents borrowed from the building and its station: wrought-iron slate-blue keywords (`#3c6070`), Anhalter brick-red strings (`#704214`), and muted ochre numbers (`#5c4a00`). Everything is deliberately desaturated so it stays calm across long sessions.
 
 **Best for:** daylight coding and anyone who finds pure-white themes too harsh.
 
@@ -112,8 +112,8 @@ A warm light theme inspired by the sober classicism of the Großbriefverteileram
 
 - **Primary Background**: `#f6f3ec` - Warm limestone white for main editor
 - **Accent Color**: `#3c6070` - Slate-blue for keywords
-- **Strings**: `#9c5a38` - Anhalter brick-red for string literals
-- **Numbers**: `#a6781b` - Muted ochre for numeric literals
+- **Strings**: `#704214` - Anhalter brick-red for string literals
+- **Numbers**: `#5c4a00` - Muted ochre for numeric literals
 - **Text Primary**: `#2b2b2b` - Dark gray for main text
 
 ### Syntax Colors (All Themes)
@@ -192,6 +192,14 @@ You can customize specific colors by adding overrides to your VS Code settings:
 MIT License - see LICENSE file for details.
 
 ## Changelog
+
+### 2.2.2
+
+- **Accessibility**: Improved colorblind friendliness across all five themes
+- **Theme Quality**: Strengthened token contrast under simulated color vision deficiencies
+- **Git Colors**: Improved added, modified and deleted color separation
+- **Packaging**: Excluded development-only files from the VSIX package
+- **CI**: Added package validation to the GitHub Actions workflow
 
 ### 2.2.1
 

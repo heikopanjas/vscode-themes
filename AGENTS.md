@@ -14,7 +14,7 @@ This is a VS Code theme development project for **Berlin Postal Themes**, a coll
 
 ### Current Status
 
-All five theme variants are implemented and functional. The extension has been rebranded from "Super Theme Collection" to "Berlin Postal Themes" and is ready for testing, packaging, and marketplace publication at version 2.2.0.
+All five theme variants are implemented and functional. The extension has been rebranded from "Super Theme Collection" to "Berlin Postal Themes" and is ready for testing, packaging, and marketplace publication at version 2.2.2.
 
 ## Project Structure
 
@@ -120,8 +120,8 @@ berlin-postal-themes/
 - Editor background: #f6f3ec (warm limestone white)
 - Foreground: #2b2b2b (dark gray)
 - Keywords: #3c6070 (slate-blue)
-- Strings: #9c5a38 (Anhalter brick-red)
-- Numbers: #a6781b (muted ochre)
+- Strings: #704214 (Anhalter brick-red)
+- Numbers: #5c4a00 (muted ochre)
 - Type: vs (light theme)
 - Character: Sober Neues Bauen classicism of the Großbriefverteileramt
 - Deliberately desaturated for calm long sessions

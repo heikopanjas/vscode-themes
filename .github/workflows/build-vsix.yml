@@ -54,6 +54,10 @@ jobs:
           done
           echo "✅ All theme files are present and accessible"
 
+      - name: Validate extension package
+        run: |
+          npm run validate
+
       - name: Build VSIX package
         run: |
           # Create dist directory if it doesn't exist
@@ -96,6 +100,8 @@ jobs:
           - **NW21 (Nordwest 21 - Moabit)** - Soft light theme for comfortable extended coding
           - **W30 (West 30 - Schöneberg)** - Ultra-dark theme for low-light coding
           - **SW61 (Südwest 61 - Kreuzberg)** - Blue-tinted dark theme for a calming experience
+          - **SO36 (Südost 36 - Kreuzberg)** - Medium-dark blue theme with a cyan title bar
+          - **SW11 (Südwest 11 - Kreuzberg)** - Warm limestone-white theme for daylight coding
 
           ### Installation
           Download the \`.vsix\` file and install it using:

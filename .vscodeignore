@@ -4,6 +4,9 @@
 .gitignore
 .github/**
 .copilot-instructions.md
+AGENTS.md
+.slopctl/**
+docs/*.csv
 
 # Build outputs
 dist/**
