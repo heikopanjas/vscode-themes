@@ -10,27 +10,52 @@ The Postzustellbezirke were postal delivery districts used in Berlin from the 19
 
 ### NW21 (Nordwest 21 - Moabit)
 
-A soft light theme with a gentle blue tint, representing the industrial and creative spirit of Moabit. Perfect for comfortable extended coding sessions in bright environments.
+Named after the postal district that covered Moabit's factory quarter — home to the *AEG-Turbinenhalle* on Huttenstraße, Peter Behrens's 1909 masterpiece of industrial modernism and one of the first buildings where steel-and-glass engineering was treated as architecture in its own right. The hall's north-facing clerestory windows flood the interior with cool, diffused daylight that never bleaches or glares.
+
+That light is the theme. A pale sky-blue wash (`#e8eefe`) replaces clinical white — soft enough to read for hours without fatigue. Accents stay close to the palette: cool slate-blue for active elements (`#0969da`), muted punctuation, and a dark charcoal foreground (`#1f2328`) with just enough warmth to avoid the coldness of pure black. Nothing fights for attention; the colours work the way the Turbinenhalle's structure works — everything in service of what happens inside.
+
+**Best for:** long sessions in bright rooms and anyone who finds pure-white themes too harsh.
 
 ### W30 (West 30 - Schöneberg)
 
-An ultra-dark theme inspired by Schöneberg's vibrant nightlife and cultural scene. Deep black backgrounds (#010409) provide maximum contrast for low-light coding.
+Named after the postal district centred on John-F.-Kennedy-Platz, where the *Rathaus Schöneberg* has stood since 1914 — a red-brick tower block that served as West Berlin's city hall for the entire duration of the division, and from whose tower the *Freiheitsglocke*, a replica of the Liberty Bell, still chimes every noon. When the floodlights go off, the tower disappears into the Berlin night: dark brick, dark sky, a single lit clock face.
+
+That darkness is the theme. The editor drops to near-black (`#010409`) — dark enough to dissolve the screen border in a dimly lit room. Text floats in cool silver-gray (`#c9d1d9`), catching the eye without burning it. The only colour comes from accent elements: a steel-blue cursor (`#58a6ff`) and warm coral-orange tab borders (`#f78166`) — the two colours you might see from a Schöneberg bar window at 2 a.m., neon blue and warm lamp-glow.
+
+**Best for:** night-time coding, dark rooms, and anyone who wants the screen to recede and only the code to glow.
 
 ### SW61 (Südwest 61 - Kreuzberg)
 
-A calming blue-tinted dark theme reflecting Kreuzberg's alternative culture and creative energy. Blue backgrounds and accents create a soothing coding experience.
+Named after the postal district whose most quietly iconic building is the *Amerika-Gedenkbibliothek* on Blücherplatz — a gift from the American people to West Berlin after the airlift, opened in 1954 to Fritz Bornemann's modernist design. From across the square at dusk, the deep-set reading rooms glow with cool institutional light against a facade that has already dissolved into the darkening Prussian-blue sky above Kreuzberg.
+
+That dusk is the theme. The editor background sinks to a deep navy (`#00205A`) — not black, but the colour of the sky just before it commits to night. Text sits in the same silver-gray (`#c9d1d9`) as the other dark themes, steady and readable without fighting the blue. Accents — cursors, active tabs, highlights — pick up the steel blue of the library's interior light (`#58a6ff`), a cool counterpoint to the warm world outside.
+
+**Best for:** evening sessions, anyone who finds pure-black themes oppressive, and those who prefer depth over darkness.
 
 ### SO36 (Südost 36 - Kreuzberg)
 
-A medium-dark blue theme capturing the raw punk energy of SO36, the iconic Kreuzberg sub-district. The distinctive cyan title bar (#00ccff) gives it a bold, unmistakable identity.
+Named after the postal district whose eastern edge ends at the *Oberbaumbrücke* — the twin-towered red-brick bridge that was a heavily controlled border crossing for the entire duration of the Wall, and was reunited after 1989 with a new centre span by Santiago Calatrava: a skeletal steel arch that glows ice-blue under its floodlights, suspended between the two Gothic towers like something forced in from another century.
+
+That collision is the theme. The editor sits in a medium-dark cobalt (`#204b81`) — brighter and rawer than SW61's deep navy, because SO36 was never calm. The title bar breaks hard with a electric cyan (`#00ccff`), unmistakably Calatrava steel against a night sky. Text is the same reliable silver-gray (`#c9d1d9`), but here it reads like graffiti on brick: legible, purposeful, slightly confrontational.
+
+**Best for:** coders who want presence and energy from their environment, not just a neutral backdrop.
+
+### SW11 (Südwest 11 - Kreuzberg)
+
+Named after the *Großbriefverteileramt SW 11* beside the Anhalter Bahnhof — for decades the largest mail-sorting center in Berlin and, after 1962, the hub that routed letters for all of West Berlin. It is one of the few large 1930s buildings still standing in Kreuzberg, a listed monument whose pale natural-stone facade blends sober *Neues Bauen* lines with monumental classicism.
+
+That stone is the theme. A warm limestone white (`#f6f3ec`) stands in for clinical white, with restrained accents borrowed from the building and its station: wrought-iron slate-blue keywords (`#3c6070`), Anhalter brick-red strings (`#9c5a38`), and muted ochre numbers (`#a6781b`). Everything is deliberately desaturated so it stays calm across long sessions.
+
+**Best for:** daylight coding and anyone who finds pure-white themes too harsh.
 
 ## Features
 
-- **Berlin Heritage**: Four distinct themes inspired by historic West Berlin postal districts
+- **Berlin Heritage**: Five distinct themes inspired by historic West Berlin postal districts
 - **NW21 Moabit**: Soft light theme with gentle blue tint (#e8eefe) for comfortable extended coding
 - **W30 Schöneberg**: Ultra-dark theme with deep black background (#010409) for low-light environments
 - **SW61 Kreuzberg**: Blue-tinted dark theme (#00205A) for a calming coding experience
 - **SO36 Kreuzberg**: Medium-dark blue theme (#204b81) with distinctive cyan title bar (#00ccff)
+- **SW11 Kreuzberg**: Warm limestone-white light theme (#f6f3ec) for calm daylight coding
 - **High Contrast**: Carefully balanced contrast ratios for excellent readability across all themes
 - **Comprehensive Coverage**: Full theming of all VS Code UI elements including editor, sidebar, terminal, and panels
 - **Syntax Highlighting**: Rich color palette for code syntax highlighting across multiple programming languages
@@ -81,6 +106,16 @@ A bold dark theme capturing the punk spirit of SO36:
 - **Text Primary**: `#c9d1d9` - High contrast white for main text
 - **Text Secondary**: `#8b949e` - Muted for secondary text
 
+### SW11 (Südwest 11 - Kreuzberg)
+
+A warm light theme inspired by the sober classicism of the Großbriefverteileramt SW 11:
+
+- **Primary Background**: `#f6f3ec` - Warm limestone white for main editor
+- **Accent Color**: `#3c6070` - Slate-blue for keywords
+- **Strings**: `#9c5a38` - Anhalter brick-red for string literals
+- **Numbers**: `#a6781b` - Muted ochre for numeric literals
+- **Text Primary**: `#2b2b2b` - Dark gray for main text
+
 ### Syntax Colors (All Themes)
 
 - **Keywords**: Red and orange tones for language keywords
@@ -96,7 +131,7 @@ A bold dark theme capturing the punk spirit of SO36:
 1. Clone this repository
 2. Copy the theme files to your VS Code extensions directory
 3. Open VS Code and go to Preferences > Color Theme
-4. Select your preferred Berlin district theme: "NW21", "W30", "SW61", or "SO36"
+4. Select your preferred Berlin district theme: "NW21", "W30", "SW61", "SO36", or "SW11"
 
 ### Development Installation
 
@@ -122,6 +157,9 @@ You can customize specific colors by adding overrides to your VS Code settings:
     },
     "[SO36 (Südost 36 - Kreuzberg)]": {
       "editor.background": "#1a3d6e"
+    },
+    "[SW11 (Südwest 11 - Kreuzberg)]": {
+      "editor.background": "#ede9e0"
     }
   }
 }
@@ -150,6 +188,14 @@ You can customize specific colors by adding overrides to your VS Code settings:
 MIT License - see LICENSE file for details.
 
 ## Changelog
+
+### 2.2.0
+
+- **New Theme**: Added SW11 (Südwest 11 - Kreuzberg) as fifth theme variant
+- **Inspiration**: Großbriefverteileramt SW 11 beside Anhalter Bahnhof, warm limestone facade
+- **Distinctive Style**: Warm limestone-white background (#f6f3ec) with desaturated slate-blue, brick-red and ochre accents
+- **Character**: Sober Neues Bauen classicism for calm daylight coding sessions
+- **Updated Documentation**: README and AGENTS.md reflect five-theme collection
 
 ### 2.1.0
 
