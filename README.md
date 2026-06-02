@@ -193,6 +193,10 @@ MIT License - see LICENSE file for details.
 
 ## Changelog
 
+### 3.0.0
+
+- **Accessibility**: Colorblind-friendly palettes across all five themes
+
 ### 2.2.2
 
 - **Accessibility**: Improved colorblind friendliness across all five themes
