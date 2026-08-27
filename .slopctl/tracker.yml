@@ -1,35 +1,52 @@
+UPDATES.md:
+  original_sha: ff56fd563cb60b9073230b3b0721e5687c98fd7888129b47f2bbc557e9c9c940
+  template_version: 5
+  installed_date: 2026-08-27T22:07:00.432538+00:00
+  lang: []
+  agent: []
+  ref_count: 0
+  category: integration
+.agents/skills/semantic-versioning/SKILL.md:
+  original_sha: d313d5c1a851aaf9b8cebc250e280cbe37bc70fdb06d95f74de6b60eafdf5f4d
+  template_version: 5
+  installed_date: 2026-08-27T22:07:00.433208+00:00
+  lang: []
+  agent:
+  - copilot
+  ref_count: 1
+  category: skill
+.github/prompts/init-session.prompt.md:
+  original_sha: 0b2d1020a8ed67751e39e8b9465692c0ae2ce2eaa538bd01a43bd5075d6d2514
+  template_version: 5
+  installed_date: 2026-08-27T22:07:00.432766+00:00
+  lang: []
+  agent:
+  - copilot
+  ref_count: 1
+  category: agent
+.agents/skills/recent-updates/SKILL.md:
+  original_sha: 27fbb14192738a4e76042bf7322b4b529f4996354fa427700624deccd3ef6dc9
+  template_version: 5
+  installed_date: 2026-08-27T22:07:00.433390+00:00
+  lang: []
+  agent:
+  - copilot
+  ref_count: 1
+  category: skill
+.agents/skills/git-workflow/SKILL.md:
+  original_sha: e77221a6957de986cdd456c69f80d4009ac8bf5e118a3e926c47260746ae92be
+  template_version: 5
+  installed_date: 2026-08-27T22:07:00.433023+00:00
+  lang: []
+  agent:
+  - copilot
+  ref_count: 1
+  category: skill
 .gitattributes:
   original_sha: b06645d6d1fca42aa742230b5ea0875ba8b996198073db1872402a9ca7ac6356
   template_version: 5
-  installed_date: 2026-05-09T21:58:30.453650+00:00
-  lang: none
-  agent: all
+  installed_date: 2026-08-27T22:07:00.432532+00:00
+  lang: []
+  agent: []
+  ref_count: 0
   category: integration
-.github/prompts/init-session.prompt.md:
-  original_sha: 44e08a0ddf49895b4ab13a4263f8f3b03e3f07118fd5ffcba7491ef42e977f32
-  template_version: 5
-  installed_date: 2026-05-09T21:58:30.454115+00:00
-  lang: none
-  agent: copilot
-  category: integration
-.github/skills/git-workflow/SKILL.md:
-  original_sha: f24b140068e82da965a6a418388f1e13b25efffae67073172d828654242b8d3f
-  template_version: 5
-  installed_date: 2026-05-09T21:58:30.454562+00:00
-  lang: none
-  agent: all
-  category: skill
-AGENTS.md:
-  original_sha: 79bec6ae326e91a6fda0edc78c235af27958076501a5a497b29dd617b4bc2fed
-  template_version: 0
-  installed_date: 2026-05-09T21:58:30.450505+00:00
-  lang: none
-  agent: all
-  category: main
-.github/skills/semantic-versioning/SKILL.md:
-  original_sha: 1dafed38ef2647b30a990117fdfd868502a8a52e52360ce5038b8f256163fade
-  template_version: 5
-  installed_date: 2026-05-09T21:58:30.454983+00:00
-  lang: none
-  agent: all
-  category: skill

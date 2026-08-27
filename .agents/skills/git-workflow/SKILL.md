@@ -1,3 +1,12 @@
+---
+name: git-workflow
+description: Git commit message format using conventional commits, with character limits, commit types, branch workflow, and examples. Load before making a commit or reviewing git history.
+license: MIT
+metadata:
+  author: Heiko Panjas
+  version: "1.1"
+---
+
 # Git Workflow Conventions
 
 Read this skill before making a commit. It contains the full commit message format,
@@ -8,11 +17,16 @@ character limits, conventional commit types, and examples.
 ## Commit Protocol (CRITICAL)
 
 - **NEVER commit automatically** - always wait for explicit confirmation
+- **NO co-authorship by coding agents** - never add `Co-Authored-By` trailers, `Generated with` footers, or any other attribution naming an AI coding agent
+- **IF A COMMIT MESSAGE HAS A BODY, EVERY BODY LINE MUST BE A BULLET**
+- **BODY BULLETS MUST START WITH `-`**
+- **DO NOT write prose paragraphs in commit message bodies**
 
 Whenever asked to commit changes:
 
 - Stage the changes
 - Write a detailed but concise commit message using conventional commits format
+- If using a commit body, write it as bullet points that explain what and why
 - Commit the changes
 
 This is **CRITICAL**!
@@ -46,13 +60,20 @@ Follow these rules to prevent VSCode terminal crashes and ensure clean git histo
 - No period at end of subject line
 - Keep concise and descriptive
 
-**Body Rules (if needed):**
+**Body Rules (MANDATORY WHEN A BODY EXISTS):**
 
 - Add blank line after subject before body
-- Wrap each line at 72 characters maximum
+- Body text is mandatory even for simple commits
+- Start every body line with `-`, except wrapped continuation lines
+- Use lowercase text after each bullet marker
+- Wrap each body line at 72 characters maximum
 - Explain what and why, not how
-- Use bullet points (`-`) for multiple items with lowercase text after bullet
 - Keep it concise
+
+**Footer Rules:**
+
+- Use the footer only for issue references (`#123`) or `BREAKING CHANGE:` notes
+- **Never add co-authorship or attribution for coding agents**: no `Co-Authored-By` trailers, no `Generated with` lines, no AI tool names
 
 **Special Character Safety:**
 
@@ -73,7 +94,7 @@ Follow these rules to prevent VSCode terminal crashes and ensure clean git histo
 Good:
 
 ```text
-feat(api): add KStringTrim function
+feat(api): add FooTrim function
 
 - add trimming function to remove whitespace from
   both ends of string
@@ -84,6 +105,8 @@ Good (short):
 
 ```text
 fix(build): correct static library output name
+
+- keep release artifacts named consistently
 ```
 
 Bad (too long):
@@ -95,7 +118,7 @@ feat(api): add a new comprehensive string trimming function that handles all edg
 Bad (special characters):
 
 ```text
-fix: update `KString` with "nested 'quotes'" & $special chars!
+fix: update `Foo` with "nested 'quotes'" & $special chars!
 ```
 
 **Invoking git commit safely:**
