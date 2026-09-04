@@ -15,7 +15,7 @@ This is a VS Code theme development project for **Berlin Postal Themes**, a coll
 
 ### Current Status
 
-All six theme variants are implemented and functional. The extension has been rebranded from "Super Theme Collection" to "Berlin Postal Themes" and is ready for testing, packaging, and marketplace publication at version 3.1.2.
+All six theme variants are implemented and functional. The extension has been rebranded from "Super Theme Collection" to "Berlin Postal Themes" and is ready for testing, packaging, and marketplace publication at version 3.1.3.
 
 ## Project Structure
 
@@ -110,14 +110,16 @@ strip while keeping `#3c6070` for its panel title). Target at least 4.5:1 agains
 Panel header foregrounds (`panelTitle.activeForeground`, `panelTitle.inactiveForeground`)
 remain per-theme, since the panel body keeps each district's own background.
 
-### No Bold Type (all themes)
+### No Bold or Italic Type (all themes)
 
-No theme may set `"fontStyle": "bold"` on any token, in `tokenColors` or
-`semanticTokenColors`. Weight is brand furniture and stays uniform. `italic`,
-`underline` and `strikethrough` are still allowed.
+No theme may set `"fontStyle"` to `bold`, `italic`, or any combination containing
+them, in `tokenColors` or `semanticTokenColors`. Weight and slant are brand
+furniture and stay uniform. Only `underline` and `strikethrough` are allowed.
 
 This means color and contrast have to carry all token distinctions on their own, so
-new accents need a real luminance step rather than a weight change to read as distinct.
+new accents need a real luminance step rather than a weight or slant change to read
+as distinct. When a rule loses its only `fontStyle`, give it a `foreground` instead
+of leaving an empty `settings` object.
 
 ### Current Theme Specifications
 

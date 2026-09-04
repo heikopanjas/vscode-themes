@@ -668,7 +668,6 @@
                 "markup.italic"
             ],
             "settings": {
-                "fontStyle": "italic",
                 "foreground": "#623600"
             }
         },
@@ -721,7 +720,7 @@
                 "markup.quote"
             ],
             "settings": {
-                "fontStyle": "italic"
+                "foreground": "#0a3069"
             }
         },
         {

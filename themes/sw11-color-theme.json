@@ -176,8 +176,7 @@
                 "string.comment"
             ],
             "settings": {
-                "foreground": "#6e685b",
-                "fontStyle": "italic"
+                "foreground": "#6e685b"
             }
         },
         {
@@ -291,8 +290,7 @@
                 "entity.other.attribute-name"
             ],
             "settings": {
-                "foreground": "#5c4a00",
-                "fontStyle": "italic"
+                "foreground": "#5c4a00"
             }
         },
         {
@@ -336,8 +334,7 @@
                 "markup.italic"
             ],
             "settings": {
-                "foreground": "#312d26",
-                "fontStyle": "italic"
+                "foreground": "#312d26"
             }
         },
         {

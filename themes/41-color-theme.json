@@ -501,7 +501,6 @@
         {
             "scope": "markup.italic",
             "settings": {
-                "fontStyle": "italic",
                 "foreground": "#e89279"
             }
         },

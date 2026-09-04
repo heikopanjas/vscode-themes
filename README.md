@@ -218,6 +218,11 @@ MIT License - see LICENSE file for details.
 
 ## Changelog
 
+### 3.1.3
+
+- **Fix**: Removed all italic type from every theme, uniform font slant is part of the brand
+- **Fix**: NW21 block quotes now carry a color, they previously relied on italic alone
+
 ### 3.1.2
 
 - **Fix**: Removed all bold type from every theme, uniform font weight is part of the brand

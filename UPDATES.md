@@ -4,6 +4,16 @@ This file is the append-only log of project decisions and notable changes, maint
 
 <!-- {changelog} -->
 
+### 2026-09-04 (v3.1.3, no italic type)
+
+- removed every `"fontStyle": "italic"` from all six themes, 9 rules in total; uniform font slant is part of the brand, extending the no-bold rule from 3.1.2
+- no combined values such as `bold italic` existed, so nothing needed partial rewriting
+- only `underline` (11 rules) and `strikethrough` (4 rules) remain
+- affected `markup.italic`, so Markdown `*emphasis*` no longer renders slanted in any theme; this follows from the rule rather than being an oversight
+- NW21 `markup.quote` styled quotes with italic and nothing else, so removing it left an empty rule; gave it the NW21 string blue (#0a3069), matching how every other theme already colors that scope
+- documented the rule in AGENTS.md, including that a rule losing its only `fontStyle` needs a `foreground` instead of an empty `settings` object
+- version bump: 3.1.2 to 3.1.3 (PATCH - corrects styling in existing themes, no new features)
+
 ### 2026-09-04 (v3.1.2, no bold type)
 
 - removed every `"fontStyle": "bold"` from all six themes, 27 rules in total; uniform font weight is part of the brand
