@@ -218,6 +218,12 @@ MIT License - see LICENSE file for details.
 
 ## Changelog
 
+### 3.1.1
+
+- **Fix**: Unified the tab bar, tabs and sidebar title bar across all six themes; these are shared brand elements that had drifted apart between variants
+- **Fix**: Lightened the SW11 active tab accent so it stays visible on the dark tab strip
+- **Fix**: W30 was missing the black sidebar title bar
+
 ### 3.1.0
 
 - **New Theme**: Added 41 (Berlin 41 - Steglitz) as sixth theme variant

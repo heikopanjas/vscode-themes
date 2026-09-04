@@ -4,6 +4,17 @@ This file is the append-only log of project decisions and notable changes, maint
 
 <!-- {changelog} -->
 
+### 2026-09-04 (v3.1.1, shared brand chrome)
+
+- unified the tab strip and sidebar title bar across all six themes; these are brand furniture, not per-district colors, and had drifted apart
+- NW21 was the reference: dark tab strip (#0d1117) with inactive tabs at #010409, #c9d1d9 active text, #777777 tab border and a black sidebar title bar
+- W30, SW61, SO36 and 41 had tab strips that simply tracked their own editor background, and SW11 had tinted the strip warm; all now carry the identical 18-key brand block
+- accents stay per-district: only `tab.activeBorderTop` and `panelTitle.activeBorder` vary
+- lightened SW11 tab accent from #3c6070 to #7ba6bd, the original was picked against a light background and only reached 2.79:1 on the dark strip; #3c6070 is retained for its panel title where it still sits on limestone
+- panel header foregrounds stay per-theme so they remain readable on each district's panel background, all verified at 5.7:1 or better
+- documented the rule in AGENTS.md so the furniture does not drift again
+- version bump: 3.1.0 to 3.1.1 (PATCH - corrects inconsistent chrome in existing themes, no new features)
+
 ### 2026-09-04 (v3.1.0, 41 steglitz theme)
 
 - added 41 (Berlin 41 - Steglitz) as sixth theme variant in `themes/41-color-theme.json`

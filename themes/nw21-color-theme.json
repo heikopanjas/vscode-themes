@@ -53,6 +53,8 @@
         "editorGroup.border": "#d1d9e0",
         "editorGroupHeader.noTabsBackground": "#0d1117",
         "editorGroupHeader.tabsBackground": "#0d1117",
+        "editorGroupHeader.tabsBorder": "#0d1117",
+        "tab.unfocusedActiveForeground": "#8b949e",
         "editorGroupHeader.border": "#0d1117",
         // Status Bar
         "statusBar.background": "#ffffff",

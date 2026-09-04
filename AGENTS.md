@@ -15,7 +15,7 @@ This is a VS Code theme development project for **Berlin Postal Themes**, a coll
 
 ### Current Status
 
-All six theme variants are implemented and functional. The extension has been rebranded from "Super Theme Collection" to "Berlin Postal Themes" and is ready for testing, packaging, and marketplace publication at version 3.1.0.
+All six theme variants are implemented and functional. The extension has been rebranded from "Super Theme Collection" to "Berlin Postal Themes" and is ready for testing, packaging, and marketplace publication at version 3.1.1.
 
 ## Project Structure
 
@@ -83,6 +83,32 @@ berlin-postal-themes/
 - **Berlin Heritage**: Each theme reflects the character of its historic postal district
 - **Consistency**: Maintain similar syntax highlighting patterns across variants
 - **Accessibility**: Ensure all variants meet WCAG contrast requirements
+
+### Shared Brand Chrome (all themes, identical values)
+
+The tab strip and sidebar title bar are brand furniture, not per-district colors. These
+keys must hold the same value in every theme file, light and dark alike:
+
+| Key | Value |
+| --- | --- |
+| `editorGroupHeader.tabsBackground` / `noTabsBackground` / `border` / `tabsBorder` | `#0d1117` |
+| `tab.activeBackground` / `tab.hoverBackground` / `tab.activeBorder` / `tab.unfocusedActiveBorder` | `#0d1117` |
+| `tab.activeForeground` / `tab.hoverForeground` | `#c9d1d9` |
+| `tab.inactiveBackground` | `#010409` |
+| `tab.inactiveForeground` / `tab.unfocusedActiveForeground` | `#8b949e` |
+| `tab.border` | `#777777` |
+| `tab.unfocusedActiveBorderTop` | `#30363d` |
+| `tab.unfocusedHoverBackground` | `#6e76811a` |
+| `sideBarTitle.background` | `#000000` |
+| `sideBarTitle.foreground` | `#c9d1d9` |
+
+Only the accents stay per-district: `tab.activeBorderTop` and `panelTitle.activeBorder`.
+Because `tab.activeBorderTop` sits on the dark `#0d1117` strip, a theme whose accent was
+picked for a light background needs a lightened variant there (SW11 uses `#7ba6bd` on the
+strip while keeping `#3c6070` for its panel title). Target at least 4.5:1 against `#0d1117`.
+
+Panel header foregrounds (`panelTitle.activeForeground`, `panelTitle.inactiveForeground`)
+remain per-theme, since the panel body keeps each district's own background.
 
 ### Current Theme Specifications
 
