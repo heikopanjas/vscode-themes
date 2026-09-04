@@ -5,6 +5,8 @@
 .github/**
 .copilot-instructions.md
 AGENTS.md
+UPDATES.md
+.agents/**
 .slopctl/**
 docs/*.csv
 

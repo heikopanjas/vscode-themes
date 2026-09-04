@@ -4,7 +4,7 @@ VS Code themes inspired by historic Berlin postal districts (Postzustellbezirke)
 
 ## About Berlin Postzustellbezirke
 
-The Postzustellbezirke were postal delivery districts used in Berlin from the 1960s to 1993. These codes helped organize mail delivery across the divided city. This theme collection pays homage to five West Berlin districts, each with its own character and coding atmosphere.
+The Postzustellbezirke were postal delivery districts used in Berlin from the 1960s to 1993. These codes helped organize mail delivery across the divided city. This theme collection pays homage to six West Berlin districts, each with its own character and coding atmosphere.
 
 ## Available Themes
 
@@ -48,14 +48,23 @@ That stone is the theme. A warm limestone white (`#f6f3ec`) stands in for clinic
 
 **Best for:** daylight coding and anyone who finds pure-white themes too harsh.
 
+### 41 (Berlin 41 - Steglitz)
+
+Named after the postal district that covers Schloßstraße, where the *Bierpinsel* has balanced on its concrete stalk since 1976 — Ralf Schüler and Ursulina Schüler-Witte's pop-brutalist tower restaurant, a faceted crown of windows lifted twenty-seven metres above the traffic. Repainted in 2010, its angular facade panels glow a warm salmon-orange against the graphite-grey ventilation louvres that band the top storey, with hard signal-red lines tracing every window frame.
+
+That contrast is the theme. The editor sits in the louvre grey (`#2e3133`) — a flat, matte graphite that never turns blue or brown. Text is the facade itself (`#e89279`), warm without being loud, and keywords take the signal red of the window frames (`#ff6e4a`, set in bold so weight carries the emphasis as well as colour). Strings pick up the raw concrete of the stalk below (`#ded9cf`) and types borrow the Steglitz sky the tower stands against (`#7fb3d5`).
+
+**Best for:** coders who want a warm, low-blue dark theme with a single decisive accent.
+
 ## Features
 
-- **Berlin Heritage**: Five distinct themes inspired by historic West Berlin postal districts
+- **Berlin Heritage**: Six distinct themes inspired by historic West Berlin postal districts
 - **NW21 Moabit**: Soft light theme with gentle blue tint (#e8eefe) for comfortable extended coding
 - **W30 Schöneberg**: Ultra-dark theme with deep black background (#010409) for low-light environments
 - **SW61 Kreuzberg**: Blue-tinted dark theme (#00205A) for a calming coding experience
 - **SO36 Kreuzberg**: Medium-dark blue theme (#204b81) with distinctive cyan title bar (#00ccff)
 - **SW11 Kreuzberg**: Warm limestone-white light theme (#f6f3ec) for calm daylight coding
+- **41 Steglitz**: Graphite-grey dark theme (#2e3133) with warm Bierpinsel salmon text (#e89279)
 - **High Contrast**: Carefully balanced contrast ratios for excellent readability across all themes
 - **Comprehensive Coverage**: Full theming of all VS Code UI elements including editor, sidebar, terminal, and panels
 - **Syntax Highlighting**: Rich color palette for code syntax highlighting across multiple programming languages
@@ -116,6 +125,19 @@ A warm light theme inspired by the sober classicism of the Großbriefverteileram
 - **Numbers**: `#5c4a00` - Muted ochre for numeric literals
 - **Text Primary**: `#2b2b2b` - Dark gray for main text
 
+### 41 (Berlin 41 - Steglitz)
+
+A warm dark theme taken from the Bierpinsel on Schloßstraße:
+
+- **Primary Background**: `#2e3133` - Graphite grey of the ventilation louvres
+- **Secondary Background**: `#232627` - Darker graphite for tabs, activity bar and status bar
+- **Text Primary**: `#e89279` - Salmon-orange of the facade panels
+- **Accent Color**: `#e8402c` - Signal red of the window frames, used for the title bar and borders
+- **Keywords**: `#ff6e4a` - Lightened signal red, bold, for WCAG AA contrast
+- **Strings**: `#ded9cf` - Raw concrete of the supporting stalk
+- **Types**: `#7fb3d5` - Steglitz sky behind the tower
+- **Constants**: `#f2cf85` - Warm sandstone of the surrounding blocks
+
 ### Syntax Colors (All Themes)
 
 - **Keywords**: Red and orange tones for language keywords
@@ -131,7 +153,7 @@ A warm light theme inspired by the sober classicism of the Großbriefverteileram
 1. Clone this repository
 2. Copy the theme files to your VS Code extensions directory
 3. Open VS Code and go to Preferences > Color Theme
-4. Select your preferred Berlin district theme: "NW21", "W30", "SW61", "SO36", or "SW11"
+4. Select your preferred Berlin district theme: "NW21", "W30", "SW61", "SO36", "SW11", or "41"
 
 ### Development Installation
 
@@ -160,6 +182,9 @@ You can customize specific colors by adding overrides to your VS Code settings:
     },
     "[SW11 (Südwest 11 - Kreuzberg)]": {
       "editor.background": "#ede9e0"
+    },
+    "[41 (Berlin 41 - Steglitz)]": {
+      "editor.background": "#26292a"
     }
   }
 }
@@ -192,6 +217,14 @@ You can customize specific colors by adding overrides to your VS Code settings:
 MIT License - see LICENSE file for details.
 
 ## Changelog
+
+### 3.1.0
+
+- **New Theme**: Added 41 (Berlin 41 - Steglitz) as sixth theme variant
+- **Inspiration**: The Bierpinsel tower restaurant on Schloßstraße
+- **Distinctive Style**: Graphite-grey background (#2e3133) with salmon-orange facade text (#e89279) and signal-red accents (#e8402c)
+- **Character**: Pop-brutalist warmth for a low-blue dark coding environment
+- **Accessibility**: Colorblind-friendly palette, all syntax tokens meet WCAG AA contrast on the editor background
 
 ### 3.0.0
 

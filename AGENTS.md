@@ -11,10 +11,11 @@ This is a VS Code theme development project for **Berlin Postal Themes**, a coll
 - **SW61** (Südwest 61 - Kreuzberg) - Blue-tinted dark theme with blue backgrounds (#00205A) for a calming coding experience
 - **SO36** (Südost 36 - Kreuzberg) - Medium-dark blue theme with cyan title bar (#204b81) for the punk heart of Kreuzberg
 - **SW11** (Südwest 11 - Kreuzberg) - Warm limestone-white light theme (#f6f3ec) inspired by the Großbriefverteileramt SW 11
+- **41** (Berlin 41 - Steglitz) - Warm graphite dark theme (#2e3133) with salmon facade text (#e89279), inspired by the Bierpinsel
 
 ### Current Status
 
-All five theme variants are implemented and functional. The extension has been rebranded from "Super Theme Collection" to "Berlin Postal Themes" and is ready for testing, packaging, and marketplace publication at version 2.2.2.
+All six theme variants are implemented and functional. The extension has been rebranded from "Super Theme Collection" to "Berlin Postal Themes" and is ready for testing, packaging, and marketplace publication at version 3.1.0.
 
 ## Project Structure
 
@@ -30,7 +31,8 @@ berlin-postal-themes/
 │   ├── w30-color-theme.json          # Complete - W30 Schöneberg dark theme
 │   ├── sw61-color-theme.json         # Complete - SW61 Kreuzberg blue theme
 │   ├── so36-color-theme.json         # Complete - SO36 Kreuzberg medium-dark blue theme
-│   └── sw11-color-theme.json         # Complete - SW11 Kreuzberg limestone-white light theme
+│   ├── sw11-color-theme.json         # Complete - SW11 Kreuzberg limestone-white light theme
+│   └── 41-color-theme.json           # Complete - 41 Steglitz graphite Bierpinsel theme
 ├── .github/                             # GitHub configuration
 │   └── workflows/                       # GitHub Actions workflows
 │       └── build-vsix.yml               # Automated VSIX build workflow
@@ -66,7 +68,7 @@ berlin-postal-themes/
 ### File Naming Conventions
 
 - Theme files: `[district-code]-color-theme.json`
-- District codes: `nw21`, `w30`, `sw61`, `so36`, `sw11`
+- District codes: `nw21`, `w30`, `sw61`, `so36`, `sw11`, `41`
 - Use kebab-case and lowercase for file names
 - Maintain consistent naming across all theme variants
 
@@ -77,6 +79,7 @@ berlin-postal-themes/
 - **SW61 (Kreuzberg)**: Blue-tinted backgrounds (#00205A), calming atmosphere, balanced contrast
 - **SO36 (Kreuzberg)**: Medium-dark blue backgrounds (#204b81), cyan title bar (#00ccff), punk energy of SO36
 - **SW11 (Kreuzberg)**: Warm limestone-white backgrounds (#f6f3ec), desaturated accents, calm daylight coding
+- **41 (Steglitz)**: Graphite-grey backgrounds (#2e3133), salmon facade foreground (#e89279), signal-red accents (#e8402c)
 - **Berlin Heritage**: Each theme reflects the character of its historic postal district
 - **Consistency**: Maintain similar syntax highlighting patterns across variants
 - **Accessibility**: Ensure all variants meet WCAG contrast requirements
@@ -125,6 +128,19 @@ berlin-postal-themes/
 - Type: vs (light theme)
 - Character: Sober Neues Bauen classicism of the Großbriefverteileramt
 - Deliberately desaturated for calm long sessions
+
+**41 (Berlin 41 - Steglitz):**
+- Editor background: #2e3133 (graphite grey of the ventilation louvres)
+- Foreground: #e89279 (salmon-orange facade panels)
+- Keywords: #ff6e4a bold (lightened signal red, bold as a non-color cue)
+- Strings: #ded9cf (raw concrete of the supporting stalk)
+- Types: #7fb3d5 (Steglitz sky)
+- Constants: #f2cf85 (warm sandstone)
+- Title bar: #e8402c (signal red)
+- Type: vs-dark
+- Character: Pop-brutalist Bierpinsel on Schloßstraße
+- Warm, low-blue dark theme with a single decisive accent
+- Colorblind-friendly: git and diff use cyan vs red, never green vs red
 
 ### Testing and Validation
 
@@ -249,6 +265,7 @@ When the user requests to "commit the latest changes" or similar:
 - [x] SW61 (Kreuzberg) - Blue-tinted dark theme
 - [x] SO36 (Kreuzberg) - Medium-dark blue theme with cyan title bar
 - [x] SW11 (Kreuzberg) - Limestone-white light theme
+- [x] 41 (Steglitz) - Graphite Bierpinsel dark theme
 - [x] Major rebrand to Berlin Postal Themes
 - [x] Updated documentation with Berlin heritage context
 - [ ] Cross-variant consistency testing
@@ -257,10 +274,22 @@ When the user requests to "commit the latest changes" or similar:
 - [ ] Marketplace publication with new branding
 
 ---
-*Last updated: June 2, 2026*
+*Last updated: September 4, 2026*
 *Update these instructions as the project evolves and new requirements emerge.*
 
 ## Recent Updates & Decisions
+
+### September 4, 2026 - 41 Theme Added
+
+- **New Theme**: Added 41 (Berlin 41 - Steglitz) as sixth theme variant
+- **File**: themes/41-color-theme.json, registered as vs-dark uiTheme
+- **Inspiration**: The Bierpinsel tower restaurant on Schloßstraße by Schüler and Schüler-Witte
+- **Editor Background**: #2e3133 (graphite grey of the ventilation louvres)
+- **Foreground**: #e89279 (salmon-orange of the facade panels)
+- **Distinctive Feature**: Signal-red title bar (#e8402c) from the window frames
+- **Accessibility**: Colorblind-friendly palette, all syntax tokens at or above WCAG AA contrast
+- **package.json**: Version bumped to 3.1.0, added steglitz, bierpinsel and 41 keywords
+- **Reasoning**: 41 is the first warm dark variant; W30, SW61 and SO36 are all black or blue
 
 ### June 2, 2026 - SW11 Theme Added
 
