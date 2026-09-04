@@ -4,6 +4,15 @@ This file is the append-only log of project decisions and notable changes, maint
 
 <!-- {changelog} -->
 
+### 2026-09-04 (v3.1.2, no bold type)
+
+- removed every `"fontStyle": "bold"` from all six themes, 27 rules in total; uniform font weight is part of the brand
+- italic, underline and strikethrough are unaffected and still in use
+- affected `markup.bold`, so Markdown `**bold**` no longer renders bold in any theme; this follows from the rule rather than being an oversight
+- 41 used bold on keywords as a deliberate non-color cue for colorblind users; the cue is dropped, but the keyword red (#ff6e4a) still clears WCAG AA at 4.73:1 and sits 17.7 delta E from the base salmon under all three CVD simulations, so keywords stay distinguishable by color alone
+- documented the rule in AGENTS.md next to the shared brand chrome table
+- version bump: 3.1.1 to 3.1.2 (PATCH - corrects styling in existing themes, no new features)
+
 ### 2026-09-04 (v3.1.1, shared brand chrome)
 
 - unified the tab strip and sidebar title bar across all six themes; these are brand furniture, not per-district colors, and had drifted apart

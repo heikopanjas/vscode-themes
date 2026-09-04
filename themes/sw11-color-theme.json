@@ -320,8 +320,7 @@
                 "entity.name.section"
             ],
             "settings": {
-                "foreground": "#3c6070",
-                "fontStyle": "bold"
+                "foreground": "#3c6070"
             }
         },
         {
@@ -329,8 +328,7 @@
                 "markup.bold"
             ],
             "settings": {
-                "foreground": "#312d26",
-                "fontStyle": "bold"
+                "foreground": "#312d26"
             }
         },
         {

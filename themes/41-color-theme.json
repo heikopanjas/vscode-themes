@@ -327,7 +327,6 @@
         {
             "scope": "keyword",
             "settings": {
-                "fontStyle": "bold",
                 "foreground": "#ff6e4a"
             }
         },
@@ -337,7 +336,6 @@
                 "storage.type"
             ],
             "settings": {
-                "fontStyle": "bold",
                 "foreground": "#ff6e4a"
             }
         },
@@ -452,7 +450,6 @@
         {
             "scope": "string.regexp constant.character.escape",
             "settings": {
-                "fontStyle": "bold",
                 "foreground": "#6fb3b0"
             }
         },
@@ -492,7 +489,6 @@
                 "markup.heading entity.name"
             ],
             "settings": {
-                "fontStyle": "bold",
                 "foreground": "#a9d3ea"
             }
         },
@@ -512,7 +508,6 @@
         {
             "scope": "markup.bold",
             "settings": {
-                "fontStyle": "bold",
                 "foreground": "#e89279"
             }
         },
@@ -591,8 +586,7 @@
         {
             "scope": "meta.diff.range",
             "settings": {
-                "foreground": "#a9d3ea",
-                "fontStyle": "bold"
+                "foreground": "#a9d3ea"
             }
         },
         {
@@ -604,7 +598,6 @@
         {
             "scope": "meta.separator",
             "settings": {
-                "fontStyle": "bold",
                 "foreground": "#7fb3d5"
             }
         },

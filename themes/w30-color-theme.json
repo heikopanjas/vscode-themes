@@ -448,7 +448,6 @@
         {
             "scope": "string.regexp constant.character.escape",
             "settings": {
-                "fontStyle": "bold",
                 "foreground": "#a5d6ff"
             }
         },
@@ -488,7 +487,6 @@
                 "markup.heading entity.name"
             ],
             "settings": {
-                "fontStyle": "bold",
                 "foreground": "#79c0ff"
             }
         },
@@ -508,7 +506,6 @@
         {
             "scope": "markup.bold",
             "settings": {
-                "fontStyle": "bold",
                 "foreground": "#c9d1d9"
             }
         },
@@ -587,8 +584,7 @@
         {
             "scope": "meta.diff.range",
             "settings": {
-                "foreground": "#d2a8ff",
-                "fontStyle": "bold"
+                "foreground": "#d2a8ff"
             }
         },
         {
@@ -600,7 +596,6 @@
         {
             "scope": "meta.separator",
             "settings": {
-                "fontStyle": "bold",
                 "foreground": "#79c0ff"
             }
         },

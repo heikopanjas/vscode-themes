@@ -218,6 +218,10 @@ MIT License - see LICENSE file for details.
 
 ## Changelog
 
+### 3.1.2
+
+- **Fix**: Removed all bold type from every theme, uniform font weight is part of the brand
+
 ### 3.1.1
 
 - **Fix**: Unified the tab bar, tabs and sidebar title bar across all six themes; these are shared brand elements that had drifted apart between variants

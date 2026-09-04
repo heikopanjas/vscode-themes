@@ -15,7 +15,7 @@ This is a VS Code theme development project for **Berlin Postal Themes**, a coll
 
 ### Current Status
 
-All six theme variants are implemented and functional. The extension has been rebranded from "Super Theme Collection" to "Berlin Postal Themes" and is ready for testing, packaging, and marketplace publication at version 3.1.1.
+All six theme variants are implemented and functional. The extension has been rebranded from "Super Theme Collection" to "Berlin Postal Themes" and is ready for testing, packaging, and marketplace publication at version 3.1.2.
 
 ## Project Structure
 
@@ -110,6 +110,15 @@ strip while keeping `#3c6070` for its panel title). Target at least 4.5:1 agains
 Panel header foregrounds (`panelTitle.activeForeground`, `panelTitle.inactiveForeground`)
 remain per-theme, since the panel body keeps each district's own background.
 
+### No Bold Type (all themes)
+
+No theme may set `"fontStyle": "bold"` on any token, in `tokenColors` or
+`semanticTokenColors`. Weight is brand furniture and stays uniform. `italic`,
+`underline` and `strikethrough` are still allowed.
+
+This means color and contrast have to carry all token distinctions on their own, so
+new accents need a real luminance step rather than a weight change to read as distinct.
+
 ### Current Theme Specifications
 
 **NW21 (Nordwest 21 - Moabit):**
@@ -158,7 +167,7 @@ remain per-theme, since the panel body keeps each district's own background.
 **41 (Berlin 41 - Steglitz):**
 - Editor background: #2e3133 (graphite grey of the ventilation louvres)
 - Foreground: #e89279 (salmon-orange facade panels)
-- Keywords: #ff6e4a bold (lightened signal red, bold as a non-color cue)
+- Keywords: #ff6e4a (lightened signal red)
 - Strings: #ded9cf (raw concrete of the supporting stalk)
 - Types: #7fb3d5 (Steglitz sky)
 - Constants: #f2cf85 (warm sandstone)
