@@ -12,7 +12,7 @@ The Postzustellbezirke were postal delivery districts used in Berlin from the 19
 
 Named after the postal district that covered Moabit's factory quarter — home to the *AEG-Turbinenhalle* on Huttenstraße, Peter Behrens's 1909 masterpiece of industrial modernism and one of the first buildings where steel-and-glass engineering was treated as architecture in its own right. The hall's north-facing clerestory windows flood the interior with cool, diffused daylight that never bleaches or glares.
 
-That light is the theme. A pale sky-blue wash (`#e8eefe`) replaces clinical white — soft enough to read for hours without fatigue. Accents stay close to the palette: cool slate-blue for active elements (`#0969da`), muted punctuation, and a dark charcoal foreground (`#1f2328`) with just enough warmth to avoid the coldness of pure black. Nothing fights for attention; the colours work the way the vTurbinenhalle's structure works — everything in service of what happens inside.
+That light is the theme. A pale sky-blue wash (`#e8eefe`) replaces clinical white — soft enough to read for hours without fatigue. Accents stay close to the palette: cool slate-blue for active elements (`#0969da`), muted punctuation, and a dark charcoal foreground (`#1f2328`) with just enough warmth to avoid the coldness of pure black. Nothing fights for attention; the colours work the way the Turbinenhalle's structure works — everything in service of what happens inside.
 
 **Best for:** long sessions in bright rooms and anyone who finds pure-white themes too harsh.
 
@@ -52,7 +52,7 @@ That stone is the theme. A warm limestone white (`#f6f3ec`) stands in for clinic
 
 Named after the postal district that covers Schloßstraße, where the *Bierpinsel* has balanced on its concrete stalk since 1976 — Ralf Schüler and Ursulina Schüler-Witte's pop-brutalist tower restaurant, a faceted crown of windows lifted twenty-seven metres above the traffic. Repainted in 2010, its angular facade panels glow a warm salmon-orange against the graphite-grey ventilation louvres that band the top storey, with hard signal-red lines tracing every window frame.
 
-That contrast is the theme. The editor sits in the louvre grey (`#2e3133`) — a flat, matte graphite that never turns blue or brown. Text is the facade itself (`#e89279`), warm without being loud, and keywords take the signal red of the window frames (`#ff6e4a`, set in bold so weight carries the emphasis as well as colour). Strings pick up the raw concrete of the stalk below (`#ded9cf`) and types borrow the Steglitz sky the tower stands against (`#7fb3d5`).
+That contrast is the theme. The editor sits in the louvre grey (`#2e3133`) — a flat, matte graphite that never turns blue or brown. Text is the facade itself (`#e89279`), warm without being loud, and keywords take the signal red of the window frames (`#ff6e4a`). Strings pick up the raw concrete of the stalk below (`#ded9cf`) and types borrow the Steglitz sky the tower stands against (`#7fb3d5`).
 
 **Best for:** coders who want a warm, low-blue dark theme with a single decisive accent.
 
@@ -65,6 +65,8 @@ That contrast is the theme. The editor sits in the louvre grey (`#2e3133`) — a
 - **SO36 Kreuzberg**: Medium-dark blue theme (#204b81) with distinctive cyan title bar (#00ccff)
 - **SW11 Kreuzberg**: Warm limestone-white light theme (#f6f3ec) for calm daylight coding
 - **41 Steglitz**: Graphite-grey dark theme (#2e3133) with warm Bierpinsel salmon text (#e89279)
+- **Shared Brand Chrome**: All six themes share the same dark tab strip and sidebar title bar, so only the accent changes between districts
+- **Uniform Type**: No bold or italic anywhere; colour and contrast carry every distinction
 - **High Contrast**: Carefully balanced contrast ratios for excellent readability across all themes
 - **Comprehensive Coverage**: Full theming of all VS Code UI elements including editor, sidebar, terminal, and panels
 - **Syntax Highlighting**: Rich color palette for code syntax highlighting across multiple programming languages
@@ -79,7 +81,7 @@ That contrast is the theme. The editor sits in the louvre grey (`#2e3133`) — a
 A soft light theme inspired by Moabit's industrial and creative character:
 
 - **Primary Background**: `#e8eefe` - Soft blue tint for main editor
-- **Secondary Background**: `#f6f8fa` - Light gray for tabs and headers
+- **Secondary Background**: `#f6f8fa` - Light gray for sidebar section headers
 - **Accent Color**: `#0969da` - Blue accent for active elements
 - **Text Primary**: `#1f2328` - High contrast black for main text
 - **Text Secondary**: `#656d76` - Muted for secondary text
@@ -89,7 +91,7 @@ A soft light theme inspired by Moabit's industrial and creative character:
 An ultra-dark theme reflecting Schöneberg's vibrant nightlife:
 
 - **Primary Background**: `#010409` - Deep black for main editor
-- **Secondary Background**: `#0d1117` - Slightly lighter for tabs and headers
+- **Secondary Background**: `#0d1117` - Shared tab strip and status bar
 - **Accent Color**: `#f78166` - Orange accent for active elements
 - **Text Primary**: `#c9d1d9` - High contrast white for main text
 - **Text Secondary**: `#8b949e` - Muted for secondary text
@@ -99,7 +101,7 @@ An ultra-dark theme reflecting Schöneberg's vibrant nightlife:
 A calming blue theme representing Kreuzberg's alternative culture:
 
 - **Primary Background**: `#00205A` - Deep blue for main editor
-- **Secondary Background**: `#0d1117` - Slightly lighter for tabs and headers
+- **Secondary Background**: `#0d1117` - Shared tab strip, activity bar and status bar
 - **Accent Color**: `#f78166` - Orange accent for active elements
 - **Text Primary**: `#c9d1d9` - High contrast white for main text
 - **Text Secondary**: `#8b949e` - Muted for secondary text
@@ -109,7 +111,7 @@ A calming blue theme representing Kreuzberg's alternative culture:
 A bold dark theme capturing the punk spirit of SO36:
 
 - **Primary Background**: `#204b81` - Medium-dark blue for main editor
-- **Secondary Background**: `#0d1117` - Slightly lighter for tabs and headers
+- **Secondary Background**: `#0d1117` - Shared tab strip, activity bar and status bar
 - **Title Bar**: `#00ccff` - Distinctive cyan for an unmistakable identity
 - **Accent Color**: `#f78166` - Orange accent for active elements
 - **Text Primary**: `#c9d1d9` - High contrast white for main text
@@ -130,30 +132,40 @@ A warm light theme inspired by the sober classicism of the Großbriefverteileram
 A warm dark theme taken from the Bierpinsel on Schloßstraße:
 
 - **Primary Background**: `#2e3133` - Graphite grey of the ventilation louvres
-- **Secondary Background**: `#232627` - Darker graphite for tabs, activity bar and status bar
+- **Secondary Background**: `#232627` - Darker graphite for the status bar and floating widgets
 - **Text Primary**: `#e89279` - Salmon-orange of the facade panels
 - **Accent Color**: `#e8402c` - Signal red of the window frames, used for the title bar and borders
-- **Keywords**: `#ff6e4a` - Lightened signal red, bold, for WCAG AA contrast
+- **Keywords**: `#ff6e4a` - Lightened signal red, for WCAG AA contrast
 - **Strings**: `#ded9cf` - Raw concrete of the supporting stalk
 - **Types**: `#7fb3d5` - Steglitz sky behind the tower
 - **Constants**: `#f2cf85` - Warm sandstone of the surrounding blocks
 
+### Shared Chrome (All Themes)
+
+The tab strip and sidebar title bar are brand furniture rather than district colours, so they hold the same values in every theme, light and dark alike:
+
+- **Tab Strip**: `#0d1117` - Dark strip behind the tabs, with inactive tabs at `#010409`
+- **Tab Text**: `#c9d1d9` active, `#8b949e` inactive
+- **Sidebar Title Bar**: `#000000`
+- **Per-District Accent**: Only the active tab border and panel title border change between themes
+
 ### Syntax Colors (All Themes)
 
-- **Keywords**: Red and orange tones for language keywords
-- **Strings**: Blue tones for string literals
-- **Functions**: Purple tones for function names
-- **Numbers**: Blue tones for numeric literals
-- **Comments**: Gray tones for readability
+- **Structure**: Every theme maps the same token scopes; only the hues change per district
+- **Uniform Type**: No bold or italic anywhere, so colour and contrast carry all distinctions
+- **Contrast**: Syntax tokens target WCAG AA (4.5:1) against their editor background
+- **Colorblind Support**: Git and diff signal change with cyan versus red rather than green versus red
 
 ## Installation
 
 ### From Source
 
 1. Clone this repository
-2. Copy the theme files to your VS Code extensions directory
-3. Open VS Code and go to Preferences > Color Theme
-4. Select your preferred Berlin district theme: "NW21", "W30", "SW61", "SO36", "SW11", or "41"
+2. Run `npm install` to fetch the packaging tool
+3. Run `npm run build` to produce a `.vsix` in `./dist/`
+4. Run `npm run install-local` to install it into VS Code
+5. Open VS Code and go to Preferences > Color Theme
+6. Select your preferred Berlin district theme: "NW21", "W30", "SW61", "SO36", "SW11", or "41"
 
 ### Development Installation
 
@@ -194,23 +206,27 @@ You can customize specific colors by adding overrides to your VS Code settings:
 
 ### NW21 (Nordwest 21 - Moabit)
 
-![NW21 Theme](docs/images/super-themes-nw21.png)
+![NW21 Theme](docs/images/nw21-color-theme.png)
 
 ### W30 (West 30 - Schöneberg)
 
-![W30 Theme](docs/images/super-themes-w30.png)
+![W30 Theme](docs/images/w30-color-theme.png)
 
 ### SW61 (Südwest 61 - Kreuzberg)
 
-![SW61 Theme](docs/images/super-themes-sw61.png)
+![SW61 Theme](docs/images/sw61-color-theme.png)
 
 ### SO36 (Südost 36 - Kreuzberg)
 
-![SO36 Theme](docs/images/super-themes-so36.png)
+![SO36 Theme](docs/images/so36-color-theme.png)
 
 ### SW11 (Südwest 11 - Kreuzberg)
 
-![SW11 Theme](docs/images/super-themes-sw11.png)
+![SW11 Theme](docs/images/sw11-color-theme.png)
+
+### 41 (Berlin 41 - Steglitz)
+
+![41 Theme](docs/images/41-color-theme.png)
 
 ## License
 

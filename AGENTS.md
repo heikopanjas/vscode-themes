@@ -39,9 +39,12 @@ berlin-postal-themes/
 ├── dist/                                # Build output directory (gitignored)
 ├── docs/                                # Documentation and assets
 │   └── images/                          # Theme preview images
-│       ├── super-themes-light.png       # NW21 screenshot
-│       ├── super.themes-black.png       # W30 screenshot
-│       └── super-themes-blue.png        # SW61 screenshot
+│       ├── nw21-color-theme.png         # NW21 screenshot
+│       ├── w30-color-theme.png          # W30 screenshot
+│       ├── sw61-color-theme.png         # SW61 screenshot
+│       ├── so36-color-theme.png         # SO36 screenshot
+│       ├── sw11-color-theme.png         # SW11 screenshot
+│       └── 41-color-theme.png           # 41 screenshot
 ├── super-themes.png                     # Extension icon
 └── CHANGELOG.md                         # Version history (Optional)
 ```
